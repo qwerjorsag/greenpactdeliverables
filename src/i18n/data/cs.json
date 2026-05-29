@@ -1,0 +1,46 @@
+{
+  "loading": "Načítám přístup do dat...",
+  "errors": {
+    "loginFailed": "Přihlášení se nezdařilo",
+    "loadFailed": "Nepodařilo se načíst data",
+    "exportFailed": "Nepodařilo se stáhnout export databáze"
+  },
+  "auth": {
+    "eyebrow": "Přístup k datům",
+    "title": "Přihlášení do přehledu dat",
+    "description": "Přístup je omezený na interní účet uložený v databázi.",
+    "usernameLabel": "Uživatelské jméno",
+    "usernamePlaceholder": "Zadejte uživatelské jméno",
+    "passwordLabel": "Heslo",
+    "passwordPlaceholder": "Zadejte heslo",
+    "submit": "Přihlásit",
+    "submitting": "Přihlašuji..."
+  },
+  "overview": {
+    "eyebrow": "Chráněná data",
+    "title": "Přehled uložených dat",
+    "loggedInAs": "Přihlášený uživatel:",
+    "logout": "Odhlásit",
+    "downloadDatabase": "Stáhnout databázi",
+    "downloadingDatabase": "Připravuji export...",
+    "counts": {
+      "electricity": "Elektřina",
+      "water": "Voda",
+      "waste": "Odpad",
+      "electricitySelfAudits": "Self-audity elektřiny",
+      "waterSelfAudits": "Self-audity vody",
+      "wasteSelfAudits": "Self-audity odpadu"
+    },
+    "submissionStats": {
+      "last24Hours": "Posledních 24 hodin",
+      "last7Days": "Posledních 7 dní",
+      "last28Days": "Posledních 28 dní"
+    },
+    "selfAuditStats": {
+      "last24Hours": "Posledních 24 hodin",
+      "last7Days": "Posledních 7 dní",
+      "last28Days": "Posledních 28 dní"
+    },
+    "separator": "Self-audity"
+  }
+}

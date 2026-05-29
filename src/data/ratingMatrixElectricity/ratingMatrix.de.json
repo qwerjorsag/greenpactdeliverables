@@ -1,0 +1,52 @@
+{
+  "ratingMatrix": {
+    "headers": {
+      "rating": "Bewertung",
+      "meaning": "Bedeutung",
+      "typicalProfile": "Typisches Profil",
+      "recommendedNextSteps": "Empfohlene nächste Schritte"
+    },
+    "bands": {
+      "basic": {
+        "label": "Basis (0–25)",
+        "min": 0,
+        "max": 25,
+        "meaning": "Einstiegsphase. Begrenzte Daten, kein Energiemanagementplan.",
+        "typicalProfile": "Keine systematische Überwachung oder Ziele.",
+        "recommendedNextSteps": "Vollständige Jahresdaten erfassen und Basislinie für Strom und Wärme festlegen."
+      },
+      "bronze": {
+        "label": "Bronze (26–50)",
+        "min": 26,
+        "max": 50,
+        "meaning": "Grundlegendes Energietracking gestartet. Teilweise Daten oder erste Maßnahmen.",
+        "typicalProfile": "Meist kleine Betriebe ohne ESG‑Strategie.",
+        "recommendedNextSteps": "Datenqualität verbessern, Smart‑Meter installieren und jährliches Reduktionsziel definieren."
+      },
+      "silver": {
+        "label": "Silber (51–75)",
+        "min": 51,
+        "max": 75,
+        "meaning": "Aktives Management von Energie und Emissionen. Erste erneuerbare/effiziente Systeme.",
+        "typicalProfile": "Typisch für mittelgroße Hotels mit Monitoring.",
+        "recommendedNextSteps": "Verbrauchsschwerpunkte identifizieren, Beleuchtung auf LED umstellen, erneuerbare Beschaffung prüfen."
+      },
+      "gold": {
+        "label": "Gold (76–90)",
+        "min": 76,
+        "max": 90,
+        "meaning": "Fortgeschrittenes Management mit definierten Zielen und nachgewiesenen Reduktionen.",
+        "typicalProfile": "Betriebe mit ISO 50001 oder Nachhaltigkeitsplänen.",
+        "recommendedNextSteps": "Science‑based Targets setzen, Energieaudits durchführen, Heizung/Kühlung optimieren."
+      },
+      "platinum": {
+        "label": "Platin (91–100)",
+        "min": 91,
+        "max": 100,
+        "meaning": "Vorbildliche Nachhaltigkeitsführung.",
+        "typicalProfile": "Betriebe vollständig mit Erneuerbaren, kontinuierliche Verbesserung extern verifiziert.",
+        "recommendedNextSteps": "Zertifizierungen halten (ISO 50001/SBTi) und Best Practices teilen."
+      }
+    }
+  }
+}

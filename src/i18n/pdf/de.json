@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "subtitle": "NACHHALTIGKEITSANALYSE DER UNTERKUNFT",
+    "facilityName": "Name der Einrichtung"
+  },
+  "operationalData": {
+    "title": "Betriebsdaten",
+    "metric": "Metrik",
+    "period": "Periode",
+    "occupancyRate": "Auslastung (%)",
+    "operatingDays": "Betriebstage",
+    "rooms": "Anzahl der Zimmer",
+    "floorArea": "Fläche (m²)",
+    "roomNights": "Zimmernächte"
+  },
+  "energy": {
+    "energySource": "Energiequelle",
+    "kwhTitle": "ENERGIE (kWh)",
+    "gjTitle": "ENERGIE (GJ)",
+    "emissionsTitle": "EMISSIONEN (t CO₂e)"
+  },
+  "renewables": {
+    "title": "Erneuerbare Quellen",
+    "year": "Jahr",
+    "renewable": "Erneuerbar (kWh)",
+    "nonRenewable": "Nicht erneuerbar (kWh)"
+  },
+  "consumption": {
+    "titleRn": "Gesamtverbrauch pro Zimmernacht (RN)",
+    "titleM2": "Gesamtverbrauch pro m² und Jahr",
+    "year": "Jahr",
+    "consumptionKwh": "Verbrauch (kWh)",
+    "consumptionGj": "Verbrauch (GJ)",
+    "normalizedRn": "Normalisiert (GJ/RN)",
+    "normalizedM2": "Normalisiert (GJ/m²/Jahr)",
+    "percentChange": "% Änderung",
+    "evaluation": "Bewertung",
+    "reportTitleRn": "Report Gesamtverbrauch pro Zimmernacht (RN)",
+    "reportTitleM2": "Report Gesamtverbrauch pro m² und Jahr"
+  },
+  "evaluation": {
+    "significantIncrease": "Deutlicher Anstieg",
+    "significantDecrease": "Deutliche Verbesserung",
+    "moderateChange": "Mittlere Änderung",
+    "minorChange": "Kleine Änderung"
+  },
+  "report": {
+    "stable": "Stabiler Trend – aktuelle Vorgehensweisen beibehalten und Mitarbeitende motivieren.",
+    "slightImprovement": "Leichte Verbesserung – beobachten, ob der Trend anhält.",
+    "slightIncrease": "Leichter Anstieg des Verbrauchs – mögliche Ursachen prüfen.",
+    "significantImprovement": "Sehr gut! Deutliche Verbesserung – im ESG‑Report hervorheben und andere inspirieren.",
+    "significantIncrease": "Deutlicher Anstieg – detaillierte Analyse und Aktionsplan empfohlen.",
+    "majorImprovement": "Starke Verbesserung – analysieren, was funktioniert hat, und standardisieren.",
+    "majorDeterioration": "Starke Verschlechterung – sofortige Maßnahmen und Optimierung nötig."
+  },
+  "benchmarks": {
+    "totalWeightedScore": "Gesamte gewichtete Punktzahl",
+    "rating": "Bewertung",
+    "year": "Jahr"
+  },
+  "energyManagement": {
+    "metric": "Metrik",
+    "expected": "Erwarteter Wert",
+    "results": "Ergebnis",
+    "recommendation": "Empfehlung"
+  },
+  "selfAudit": {
+    "resultsTitle": "Self-Audit Ergebnisse",
+    "overallScore": "Gesamtscore",
+    "facilityName": "Name der Einrichtung"
+  },
+  "serverReport": {
+    "title": "GreenPact Nachhaltigkeitsbericht",
+    "id": "Einreichungs‑ID",
+    "date": "Datum",
+    "version": "Methodik‑Version",
+    "acc": "Unterkunft",
+    "type": "Typ",
+    "kpis": "Berechnete KPI",
+    "rating": "Gesamtbewertung",
+    "energy": "Energie pro Gast",
+    "water": "Wasser pro Gast",
+    "waste": "Recyclingquote Abfall",
+    "recs": "Empfehlungen"
+  }
+}

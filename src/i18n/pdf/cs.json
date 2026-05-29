@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "subtitle": "ANALÝZA UDRŽITELNOSTI UBYTOVACÍHO ZAŘÍZENÍ",
+    "facilityName": "N?zev za??zen?"
+  },
+  "operationalData": {
+    "title": "Provozní údaje",
+    "metric": "Ukazatel",
+    "period": "Období",
+    "occupancyRate": "Obsazenost (%)",
+    "operatingDays": "Provozní dny",
+    "rooms": "Počet pokojů",
+    "floorArea": "Podlahová plocha (m²)",
+    "roomNights": "Pokojonoci"
+  },
+  "energy": {
+    "energySource": "Zdroj energie",
+    "kwhTitle": "ENERGIE (kWh)",
+    "gjTitle": "ENERGIE (GJ)",
+    "emissionsTitle": "EMISE (t CO₂e)"
+  },
+  "renewables": {
+    "title": "Obnovitelné zdroje",
+    "year": "Rok",
+    "renewable": "Obnovitelné (kWh)",
+    "nonRenewable": "Neobnovitelné (kWh)"
+  },
+  "consumption": {
+    "titleRn": "Celková spotřeba na pokojonoc (PN)",
+    "titleM2": "Celková spotřeba na m² za rok",
+    "year": "Rok",
+    "consumptionKwh": "Spotřeba (kWh)",
+    "consumptionGj": "Spotřeba (GJ)",
+    "normalizedRn": "Normalizace (GJ/PN)",
+    "normalizedM2": "Normalizace (GJ/m²/rok)",
+    "percentChange": "% změna",
+    "evaluation": "Evaluace",
+    "reportTitleRn": "Report Celková spotřeba na pokojonoc (PN)",
+    "reportTitleM2": "Report Celková spotřeba na m² za rok"
+  },
+  "evaluation": {
+    "significantIncrease": "Výrazný nárůst",
+    "significantDecrease": "Výrazné zlepšení",
+    "moderateChange": "Střední změna",
+    "minorChange": "Malá změna"
+  },
+  "report": {
+    "stable": "Stabilní trend – udržujte současné postupy a motivujte personál.",
+    "slightImprovement": "Mírné zlepšení – sledujte, zda trend pokračuje.",
+    "slightIncrease": "Mírný nárůst spotřeby – prověřte možné důvody.",
+    "significantImprovement": "Skvělé! Výrazné zlepšení – zahrňte do ESG reportu a inspirujte ostatní.",
+    "significantIncrease": "Výrazný nárůst – doporučena detailní analýza a akční plán.",
+    "majorImprovement": "Výrazné zlepšení – analyzujte, co fungovalo, a standardizujte postup.",
+    "majorDeterioration": "Výrazné zhoršení – nutná okamžitá akce a optimalizace."
+  },
+  "benchmarks": {
+    "totalWeightedScore": "Celkové vážené skóre",
+    "rating": "Hodnocení",
+    "year": "Rok"
+  },
+  "energyManagement": {
+    "metric": "Metrika",
+    "expected": "Očekávaná hodnota",
+    "results": "Výsledek",
+    "recommendation": "Doporučení"
+  },
+  "selfAudit": {
+    "resultsTitle": "Self-Audit výsledky",
+    "overallScore": "Souhrnné skóre",
+    "facilityName": "N?zev za??zen?"
+  },
+  "serverReport": {
+    "title": "GreenPact Zpráva o udržitelnosti",
+    "id": "ID podání",
+    "date": "Datum",
+    "version": "Verze metodiky",
+    "acc": "Ubytování",
+    "type": "Typ",
+    "kpis": "Vypočtené KPI",
+    "rating": "Celkové hodnocení",
+    "energy": "Energie na hosta",
+    "water": "Voda na hosta",
+    "waste": "Míra recyklace odpadu",
+    "recs": "Doporučení"
+  }
+}

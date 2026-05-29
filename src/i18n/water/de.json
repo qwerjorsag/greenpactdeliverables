@@ -1,0 +1,69 @@
+{
+  "page": {
+    "title": "Wasser",
+    "description": "Wasser ist eine wertvolle Ressource. Unsere Methodik hilft, Lecks und Grauwasser‑Potenziale zu erkennen."
+  },
+  "validation": {
+    "missingProfile": "Bitte wählen Sie ein Unterkunftsprofil.",
+    "invalidOperatingDays": "Das Jahr hat maximal 365 Tage.",
+    "missingFields": "Bitte füllen Sie alle Felder in den Tabellen aus: Betriebsdaten und Wasserquellen.",
+    "missingConsent": "Sie müssen der Datenverarbeitung zustimmen."
+  },
+  "alerts": {
+    "submitted": "Daten gesendet. PDF wird später ergänzt."
+  },
+  "buttons": {
+    "generating": "Wird erstellt...",
+    "generatePdf": "PDF erstellen",
+    "goToSelfAudit": "Zum Wasser Self-Audit"
+  },
+  "consent": {
+    "label": "Mit dem Absenden stimme ich der Verarbeitung der eingegebenen Daten zu."
+  },
+  "summary": {
+    "title": "Was messen wir?",
+    "items": {
+      "totalWater": "Gesamtwasserverbrauch (m³)",
+      "recycledShare": "Recyceltes Wasser (%)",
+      "perRoomNight": "Verbrauch pro Zimmernacht (m³)"
+    },
+    "whyTitle": "Warum ist das wichtig?",
+    "whyText": "Eine Reduktion des Wasserverbrauchs um 20 % kann jährlich Tausende Euro sparen.",
+    "quote": "\"Water is the driving force of all nature.\" — Leonardo da Vinci"
+  },
+  "waterSources": {
+    "title": "Wasserquellen",
+    "headerSource": "Wasserquelle",
+    "withdrawn": "Entnommen (m³/Jahr)",
+    "returned": "In gleiche Quelle zurückgeführt (m³/Jahr)",
+    "consumed": "Verbraucht (m³/Jahr)",
+    "share": "Anteil am Gesamtentzug (%)",
+    "total": "Summe (m³)",
+    "rows": {
+      "municipal": {
+        "label": "Städtische Wasserversorgung",
+        "tooltip": "Trinkwasser aus dem städtischen Netz."
+      },
+      "groundwater": {
+        "label": "Grundwasser (eigener Brunnen)",
+        "tooltip": "Eigenes Frischwasser; nur genehmigte Entnahme."
+      },
+      "rainwater": {
+        "label": "Regenwassernutzung",
+        "tooltip": "Gesammeltes Regenwasser zur Nutzung vor Ort (meist nicht trinkbar)."
+      },
+      "greywater": {
+        "label": "Recycling / Grauwasser",
+        "tooltip": "Wiederverwendung für Toiletten, Bewässerung, Wäscherei, Kühlung usw."
+      },
+      "other": {
+        "label": "Sonstiges",
+        "tooltip": "Tankwagen oder andere Quellen, die oben nicht aufgeführt sind."
+      }
+    }
+  },
+  "facilityName": {
+    "label": "Name der Einrichtung (optional)",
+    "placeholder": "z. B. Hotel Flora"
+  }
+}

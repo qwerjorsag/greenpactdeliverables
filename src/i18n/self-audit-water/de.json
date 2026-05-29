@@ -1,0 +1,34 @@
+{
+  "page": {
+    "title": "Wasser Self-Audit",
+    "description": "Schnelle Bewertung von Wasserverbrauch und Einsparungen."
+  },
+  "consent": {
+    "label": "Mit dem Absenden stimme ich der Verarbeitung der bereitgestellten Daten zu."
+  },
+  "buttons": {
+    "evaluating": "Wird ausgewertet...",
+    "evaluate": "Auswerten und PDF erstellen"
+  },
+  "tooltip": {
+    "missingProfile": "Bitte wählen Sie ein Unterkunftsprofil.",
+    "missingConsent": "Sie müssen der Datenverarbeitung zustimmen.",
+    "evaluating": "Auswertung läuft."
+  },
+  "modal": {
+    "title": "PDF erstellen",
+    "description": "Ihre Daten wurden gesendet. Sie können nun den PDF‑Bericht herunterladen.",
+    "download": "PDF erstellen",
+    "close": "Schließen"
+  },
+  "errors": {
+    "submitFailed": "Senden fehlgeschlagen. Bitte erneut versuchen."
+  },
+  "pdf": {
+    "title": "Wasser Self-Audit"
+  },
+  "facilityName": {
+    "label": "Name der Einrichtung (optional)",
+    "placeholder": "z. B. Hotel Flora"
+  }
+}

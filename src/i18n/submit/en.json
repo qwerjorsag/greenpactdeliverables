@@ -1,0 +1,39 @@
+{
+  "title": "Registration Form",
+  "thankYouTitle": "Thank You!",
+  "thankYouDescription": "Your data has been successfully submitted. We will contact you soon.",
+  "backHome": "Back to Home",
+  "fields": {
+    "accommodationName": "Accommodation Name",
+    "accommodationNamePlaceholder": "e.g. Green Hotel",
+    "contactPerson": "Contact Person",
+    "email": "Email"
+  },
+  "buttons": {
+    "submitting": "Sending...",
+    "submit": "Submit Registration"
+  },
+  "accommodationType": {
+    "label": "Accommodation Type",
+    "hotel": {
+      "title": "Hotel",
+      "description": "Traditional accommodation with reception and services.",
+      "tooltip": "Includes hotels, motels, and guesthouses with daily housekeeping."
+    },
+    "hostel": {
+      "title": "Hostel",
+      "description": "Shared accommodation focused on community.",
+      "tooltip": "Facilities with shared rooms (dormitories) and shared bathrooms."
+    },
+    "apartment": {
+      "title": "Apartment",
+      "description": "Self-contained units with private kitchens.",
+      "tooltip": "Short-term rentals of entire apartments or houses without daily housekeeping."
+    },
+    "campsite": {
+      "title": "Campsite",
+      "description": "Outdoor accommodation for tents and caravans.",
+      "tooltip": "Includes traditional campsites, glamping, and caravan pitches."
+    }
+  }
+}

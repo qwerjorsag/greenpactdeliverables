@@ -1,0 +1,1 @@
+const o="Methodology",t="Methodology overview and sources",e="Methodology content will be added in upcoming steps.",n={title:o,subtitle:t,intro:e};export{n as default,e as intro,t as subtitle,o as title};

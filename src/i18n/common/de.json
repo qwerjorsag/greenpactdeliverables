@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "electricity": "Strom",
+    "water": "Wasser",
+    "waste": "Abfall"
+  },
+  "footer": {
+    "copyright": "© {{year}}",
+    "privacy": "Datenschutz",
+    "methodology": "Methodik",
+    "contact": "Kontakt",
+    "alt": "Handelskammer",
+    "project": "Projekt der Handelskammer"
+  },
+  "partners": {
+    "title": "Partner",
+    "placeholder": "Partnerlogo",
+    "logoAlt": "Partnerlogo {{index}}"
+  },
+  "contactInfo": {
+    "title": "Kontakt",
+    "orgName": "Hospodářská komora ČR",
+    "addressLines": [
+      "Florentinum, Empfang A",
+      "Na Florenci 2116/15",
+      "110 00 Prag 1"
+    ],
+    "companyId": {
+      "label": "Unternehmens-ID",
+      "value": "49279530"
+    },
+    "vatId": {
+      "label": "USt-IdNr.",
+      "value": "CZ49279530"
+    },
+    "registration": "Registriert beim Stadtgericht in Prag",
+    "fileNumber": {
+      "label": "Aktenzeichen",
+      "value": "A 8179"
+    },
+    "phone": "+420 266 721 300",
+    "email": "office@komora.cz",
+    "dataBox": {
+      "label": "Datenbox",
+      "value": "9nqab6b"
+    }
+  },
+  "periodData": {
+    "title": "Betriebsdaten",
+    "period": "Periode",
+    "autoText": "Dieser Wert wird automatisch berechnet",
+    "occupancyRate": "Auslastung (%)",
+    "operatingDays": "Betriebstage",
+    "operatingDaysError": "Das Jahr hat maximal 365 Tage",
+    "rooms": "Anzahl der Zimmer",
+    "floorArea": "Fläche (m²)",
+    "roomNights": "Zimmernächte"
+  },
+  "selfAuditRating": {
+    "excellent": "Ausgezeichnet",
+    "veryGood": "Sehr gut",
+    "sufficient": "Ausreichend",
+    "weak": "Schwach",
+    "insufficient": "Unzureichend"
+  }
+}

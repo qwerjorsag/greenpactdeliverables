@@ -1,0 +1,52 @@
+{
+  "ratingMatrix": {
+    "headers": {
+      "rating": "Hodnocení",
+      "meaning": "Význam",
+      "typicalProfile": "Typický profil",
+      "recommendedNextSteps": "Doporučené další kroky"
+    },
+    "bands": {
+      "basic": {
+        "label": "Basic (0–25)",
+        "min": 0,
+        "max": 25,
+        "meaning": "Počáteční fáze. Omezená dostupnost dat, bez zavedeného plánu energetického managementu.",
+        "typicalProfile": "Organizace nemá systematické monitorování ani cíle.",
+        "recommendedNextSteps": "Začni sběrem kompletních ročních energetických dat a nastav základní výchozí hodnoty pro spotřebu elektřiny a vytápění."
+      },
+      "bronze": {
+        "label": "Bronze (26–50)",
+        "min": 26,
+        "max": 50,
+        "meaning": "Základní sledování energie zahájeno. K dispozici jsou dílčí data nebo byly realizovány první úsporné kroky.",
+        "typicalProfile": "Typicky menší zařízení bez samostatné ESG strategie.",
+        "recommendedNextSteps": "Zlepši kvalitu dat, nainstaluj chytré měřiče a stanov roční cíl snížení spotřeby."
+      },
+      "silver": {
+        "label": "Silver (51–75)",
+        "min": 51,
+        "max": 75,
+        "meaning": "Aktivní řízení spotřeby energie a emisí. Částečně zavedena obnovitelná energie nebo efektivní systémy.",
+        "typicalProfile": "Typické pro středně velké hotely s jasným monitoringem.",
+        "recommendedNextSteps": "Identifikuj oblasti s vysokou spotřebou, vyměň osvětlení za LED a zvaž částečné zajištění energie z OZE (např. zelený tarif elektřiny)."
+      },
+      "gold": {
+        "label": "Gold (76–90)",
+        "min": 76,
+        "max": 90,
+        "meaning": "Pokročilé řízení s definovanými cíli a ověřenými výsledky snižování.",
+        "typicalProfile": "Zařízení zavádějící ISO 50001 nebo firemní plány udržitelnosti.",
+        "recommendedNextSteps": "Nastav science-based cíle, proveď energetické audity a optimalizuj systémy vytápění a chlazení."
+      },
+      "platinum": {
+        "label": "Platinum (91–100)",
+        "min": 91,
+        "max": 100,
+        "meaning": "Ukázkové lídrovství v udržitelnosti.",
+        "typicalProfile": "Zařízení plně napájená obnovitelnými zdroji s kontinuálním zlepšováním ověřovaným třetí stranou.",
+        "recommendedNextSteps": "Udržuj certifikaci (ISO 50001/SBTi) a sdílej best practices s partnery v oboru."
+      }
+    }
+  }
+}

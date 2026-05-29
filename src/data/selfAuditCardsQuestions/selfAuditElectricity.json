@@ -1,0 +1,378 @@
+{
+  "cards": [
+    {
+      "id": "controls",
+      "weight": 1,
+      "title": {
+        "cs": "Řízení spotřeby PRIDAL JSEM",
+        "en": "Consumption Controls",
+        "de": "Verbrauchssteuerung"
+      },
+      "description": {
+        "cs": "Zavedení chytrého řízení vytápění a chlazení umožní lépe reagovat na obsazenost a udržet komfort.",
+        "en": "Smart heating and cooling controls help respond to occupancy and maintain comfort efficiently.",
+        "de": "Intelligente Heiz- und Kühlsteuerung ermöglicht eine bessere Reaktion auf die Belegung und hält den Komfort aufrecht."
+      }
+    },
+    {
+      "id": "energy_audit",
+      "section": "Energy audit",
+      "weight": 1,
+      "title": {
+        "cs": "Energetický audit",
+        "en": "Energy Audit",
+        "de": "Energieaudit"
+      },
+      "question": {
+        "cs": "Byla provedena analýza spotřeby energie (audit)?",
+        "en": "Has an energy consumption analysis (audit) been carried out?",
+        "de": "Wurde eine Analyse des Energieverbrauchs (Audit) durchgeführt?"
+      },
+      "description": {
+        "cs": "Audit spotřeby energie pomáhá stanovit výchozí stav a identifikovat největší příležitosti k úsporám.",
+        "en": "An energy audit helps establish a baseline and identify the biggest saving opportunities.",
+        "de": "Ein Energieaudit hilft, eine Ausgangsbasis festzulegen und die größten Einsparpotenziale zu identifizieren."
+      }
+    },
+    {
+      "id": "led_lighting_replacement",
+      "section": "LED lighting",
+      "weight": 1,
+      "title": {
+        "cs": "LED osvětlení",
+        "en": "LED Lighting",
+        "de": "LED-Beleuchtung"
+      },
+      "question": {
+        "cs": "Byla všechna světla nahrazena LED?",
+        "en": "Have all the lights been replaced with LEDs?",
+        "de": "Wurden alle Leuchten durch LEDs ersetzt?"
+      },
+      "description": {
+        "cs": "Kompletní přechod na LED snižuje spotřebu elektřiny a zároveň náklady na údržbu díky delší životnosti.",
+        "en": "Full LED replacement reduces electricity use and maintenance costs thanks to longer lifespan.",
+        "de": "Die vollständige Umstellung auf LED senkt den Stromverbrauch und die Wartungskosten dank längerer Lebensdauer."
+      }
+    },
+    {
+      "id": "energy_saving_appliances",
+      "section": "Energy-saving appliances",
+      "weight": 1,
+      "title": {
+        "cs": "Energeticky úsporné spotřebiče",
+        "en": "Energy-saving Appliances",
+        "de": "Energiesparende Geräte"
+      },
+      "question": {
+        "cs": "Používají se spotřebiče s energetickým štítkem A++ nebo vyšším?",
+        "en": "Are appliances with an energy label of A++ or higher used?",
+        "de": "Werden Geräte mit Energieeffizienzklasse A++ oder höher genutzt?"
+      },
+      "description": {
+        "cs": "Úsporné spotřebiče snižují dlouhodobou spotřebu energie a přispívají ke snížení uhlíkové stopy.",
+        "en": "Efficient appliances reduce long-term energy use and help lower carbon footprint.",
+        "de": "Effiziente Geräte senken langfristig den Energieverbrauch und helfen, den CO2-Fußabdruck zu reduzieren."
+      }
+    },
+    {
+      "id": "hvac_maintenance",
+      "section": "HVAC systems - maintenance",
+      "weight": 1,
+      "title": {
+        "cs": "Údržba HVAC",
+        "en": "HVAC Maintenance",
+        "de": "HVAC-Wartung"
+      },
+      "question": {
+        "cs": "Provádí se pravidelná údržba klimatizace, vytápění a ventilace?",
+        "en": "Is regular maintenance of the air conditioning, heating and ventilation carried out?",
+        "de": "Erfolgt regelmäßige Wartung von Klimaanlage, Heizung und Lüftung?"
+      },
+      "description": {
+        "cs": "Pravidelná údržba zvyšuje účinnost systémů, snižuje poruchovost a pomáhá držet spotřebu pod kontrolou.",
+        "en": "Regular maintenance improves efficiency, reduces failures, and helps keep energy use under control.",
+        "de": "Regelmäßige Wartung erhöht die Effizienz, reduziert Ausfälle und hilft, den Verbrauch im Griff zu behalten."
+      }
+    },
+    {
+      "id": "use_renewable_energy_sources",
+      "section": "Use of renewable energy sources",
+      "weight": 1,
+      "title": {
+        "cs": "Využití obnovitelné energie",
+        "en": "Use of Renewable Energy",
+        "de": "Nutzung erneuerbarer Energien"
+      },
+      "question": {
+        "cs": "Využívá se energie ze solárních, větrných nebo jiných obnovitelných zdrojů?",
+        "en": "Is energy from solar, wind or other renewable sources used?",
+        "de": "Wird Energie aus Solar-, Wind- oder anderen erneuerbaren Quellen genutzt?"
+      },
+      "description": {
+        "cs": "Vlastní výroba nebo odběr energie z OZE snižuje emise a zlepšuje ESG profil provozu.",
+        "en": "On-site generation or renewable sourcing reduces emissions and strengthens ESG performance.",
+        "de": "Eigenerzeugung oder Bezug aus erneuerbaren Quellen reduziert Emissionen und stärkt die ESG-Performance."
+      }
+    },
+    {
+      "id": "purchase_green_electricity",
+      "section": "Purchase of green electricity",
+      "weight": 1,
+      "title": {
+        "cs": "Nákup zelené elektřiny",
+        "en": "Purchase of Green Electricity",
+        "de": "Bezug von Grünstrom"
+      },
+      "question": {
+        "cs": "Má společnost smlouvu na dodávku elektřiny z obnovitelných zdrojů?",
+        "en": "Does the company have a contract for the supply of electricity from renewable sources?",
+        "de": "Gibt es einen Vertrag über die Lieferung von Strom aus erneuerbaren Quellen?"
+      },
+      "description": {
+        "cs": "Zelený tarif nebo certifikovaný odběr elektřiny z OZE je rychlý způsob, jak snížit nepřímé emise.",
+        "en": "A green tariff or certified renewable electricity is a fast way to reduce indirect emissions.",
+        "de": "Ein grüner Tarif oder zertifizierter Ökostrom ist ein schneller Weg, indirekte Emissionen zu senken."
+      }
+    },
+    {
+      "id": "building_energy_insulation",
+      "section": "Energy insulation of the building",
+      "weight": 1,
+      "title": {
+        "cs": "Zateplení budovy",
+        "en": "Building Energy Insulation",
+        "de": "Energie-Dämmung des Gebäudes"
+      },
+      "question": {
+        "cs": "Je budova energeticky zateplená (stěny, okna, střecha)?",
+        "en": "Is the building energy insulated (walls, windows, roof)?",
+        "de": "Ist das Gebäude energetisch gedämmt (Wände, Fenster, Dach)?"
+      },
+      "description": {
+        "cs": "Kvalitní izolace výrazně snižuje tepelné ztráty a potřebu vytápění i chlazení.",
+        "en": "Good insulation significantly reduces heat loss and the need for heating and cooling.",
+        "de": "Gute Dämmung reduziert Wärmeverluste und den Bedarf an Heizung und Kühlung."
+      }
+    },
+    {
+      "id": "employee_training_energy_behavior",
+      "section": "Employee Behavior",
+      "weight": 1,
+      "title": {
+        "cs": "Chování zaměstnanců",
+        "en": "Employee Behavior",
+        "de": "Verhalten der Mitarbeitenden"
+      },
+      "question": {
+        "cs": "Probíhá pravidelné školení personálu v oblasti energeticky úsporného chování?",
+        "en": "Do you provide regular training to your staff on energy-efficient behavior?",
+        "de": "Gibt es regelmäßige Schulungen zu energieeffizientem Verhalten?"
+      },
+      "description": {
+        "cs": "Školení personálu pomáhá zavést rutiny a snižovat plýtvání energií.",
+        "en": "Training helps establish routines and reduce energy waste.",
+        "de": "Schulungen helfen, Routinen zu etablieren und Energieverschwendung zu reduzieren."
+      }
+    },
+    {
+      "id": "laundry_towels_on_request",
+      "section": "Cleaning & Laundry",
+      "weight": 1,
+      "title": {
+        "cs": "Praní ručníků na vyžádání",
+        "en": "Towels Washed on Request",
+        "de": "Handtücher auf Anfrage waschen"
+      },
+      "question": {
+        "cs": "Perou se ručníky pouze na vyžádání?",
+        "en": "Do you wash towels on request?",
+        "de": "Werden Handtücher nur auf Anfrage gewaschen?"
+      },
+      "description": {
+        "cs": "Omezení praní na vyžádání snižuje spotřebu vody, energie i chemie.",
+        "en": "Washing on request reduces water, energy, and chemicals.",
+        "de": "Waschen auf Anfrage reduziert Wasser-, Energie- und Chemikalienverbrauch."
+      }
+    },
+    {
+      "id": "laundry_bed_linen_frequency",
+      "section": "Cleaning & Laundry",
+      "weight": 1,
+      "title": {
+        "cs": "Frekvence výměny ložního prádla",
+        "en": "Bed Linen Change Frequency",
+        "de": "Wechselhäufigkeit der Bettwäsche"
+      },
+      "question": {
+        "cs": "Je nastavena frekvence výměny ložního prádla?",
+        "en": "Do you have a set frequency for changing bed linen?",
+        "de": "Gibt es eine festgelegte Häufigkeit für den Wechsel der Bettwäsche?"
+      },
+      "description": {
+        "cs": "Jasně komunikovaná frekvence výměny pomáhá optimalizovat provoz a snižovat zbytečnou spotřebu.",
+        "en": "A clear schedule helps optimize operations and reduce unnecessary consumption.",
+        "de": "Ein klarer Zeitplan optimiert den Betrieb und reduziert unnötigen Verbrauch."
+      }
+    },
+    {
+      "id": "lighting_motion_sensors_common_areas",
+      "section": "Lighting",
+      "weight": 1,
+      "title": {
+        "cs": "Pohybové senzory ve společných prostorách",
+        "en": "Motion Sensors in Common Areas",
+        "de": "Bewegungsmelder in Gemeinschaftsbereichen"
+      },
+      "question": {
+        "cs": "Používají se pohybové senzory na chodbách a ve společných prostorách?",
+        "en": "Do you use motion sensors in hallways and common areas?",
+        "de": "Werden Bewegungsmelder in Fluren und Gemeinschaftsbereichen genutzt?"
+      },
+      "description": {
+        "cs": "Senzory snižují dobu zbytečného svícení a jsou ideální pro méně vytížené prostory.",
+        "en": "Sensors reduce unnecessary lighting time and are ideal for low-traffic areas.",
+        "de": "Sensoren reduzieren unnötige Beleuchtungszeiten und sind ideal für wenig frequentierte Bereiche."
+      }
+    },
+    {
+      "id": "lighting_room_keycard_activators",
+      "section": "Lighting",
+      "weight": 1,
+      "title": {
+        "cs": "Aktivace energie kartou v pokoji",
+        "en": "Room Keycard Energy Activators",
+        "de": "Energieaktivierung per Zimmerkarte"
+      },
+      "question": {
+        "cs": "Používají se karty jako aktivátory energie v pokoji?",
+        "en": "Do you use cards as energy activators in rooms?",
+        "de": "Werden Karten als Energieaktivatoren in Zimmern genutzt?"
+      },
+      "description": {
+        "cs": "Keycard systémy pomáhají omezit spotřebu při odchodu hosta.",
+        "en": "Keycard systems reduce energy use when guests leave.",
+        "de": "Keycard-Systeme senken den Verbrauch, wenn Gäste das Zimmer verlassen."
+      }
+    },
+    {
+      "id": "heating_standard_temperature_with_override",
+      "section": "Heating & Air Conditioning",
+      "weight": 1,
+      "title": {
+        "cs": "Standardní teplota s možností individuálního nastavení",
+        "en": "Standard Temperature with Individual Override",
+        "de": "Standardtemperatur mit individueller Anpassung"
+      },
+      "question": {
+        "cs": "Je nastavena standardní teplota s možností individuálního nastavení?",
+        "en": "Do you have a standard heating temperature with individual override?",
+        "de": "Gibt es eine Standardtemperatur mit Möglichkeit zur individuellen Anpassung?"
+      },
+      "description": {
+        "cs": "Standardizace teploty snižuje spotřebu a zachovává komfort.",
+        "en": "Standardizing temperature reduces energy use while maintaining comfort.",
+        "de": "Die Standardisierung der Temperatur reduziert den Verbrauch und erhält den Komfort."
+      }
+    },
+    {
+      "id": "ac_only_with_closed_windows",
+      "section": "Heating & Air Conditioning",
+      "weight": 1,
+      "title": {
+        "cs": "Klimatizace pouze při zavřených oknech",
+        "en": "AC Only with Closed Windows",
+        "de": "Klimaanlage nur bei geschlossenen Fenstern"
+      },
+      "question": {
+        "cs": "Funguje klimatizace pouze při zavřených oknech?",
+        "en": "Is the air conditioning only functional when windows are closed?",
+        "de": "Funktioniert die Klimaanlage nur bei geschlossenen Fenstern?"
+      },
+      "description": {
+        "cs": "Detekce otevřeného okna výrazně snižuje plýtvání energií.",
+        "en": "Open-window detection significantly reduces energy waste.",
+        "de": "Fensterkontakt reduziert Energieverschwendung deutlich."
+      }
+    },
+    {
+      "id": "guest_behavior_signs_turn_off",
+      "section": "Guest Behavior",
+      "weight": 1,
+      "title": {
+        "cs": "Instrukce pro hosty (vypínání světel a klimatizace)",
+        "en": "Guest Signage (Turn Off Lights & AC)",
+        "de": "Hinweise für Gäste (Licht & Klimaanlage aus)"
+      },
+      "question": {
+        "cs": "Používají se instrukce pro hosty k omezení plýtvání?",
+        "en": "Do you use guest messaging to reduce waste?",
+        "de": "Gibt es Gästeinformationen zur Reduzierung von Verschwendung?"
+      },
+      "description": {
+        "cs": "Jednoduché cedulky mohou mít překvapivě velký dopad bez investic do technologií.",
+        "en": "Simple reminders can have a strong impact without any tech investment.",
+        "de": "Einfache Hinweise können ohne Investitionen große Wirkung haben."
+      }
+    },
+    {
+      "id": "guest_behavior_qr_flyer_info",
+      "section": "Guest Behavior",
+      "weight": 1,
+      "title": {
+        "cs": "QR leták / krátké info o opatřeních",
+        "en": "QR Flyer / Short Info About Measures",
+        "de": "QR-Flyer / Kurzinfo zu Maßnahmen"
+      },
+      "question": {
+        "cs": "Používají se letáky s QR kódem na informace o opatřeních?",
+        "en": "Do you use QR flyers to explain your measures?",
+        "de": "Nutzen Sie QR-Flyer, um Ihre Maßnahmen zu erklären?"
+      },
+      "description": {
+        "cs": "Krátké vysvětlení „proč“ zvyšuje ochotu hostů spolupracovat.",
+        "en": "Explaining the “why” increases guest cooperation.",
+        "de": "Eine kurze Erklärung des „Warum“ erhöht die Bereitschaft zur Mitwirkung."
+      }
+    },
+    {
+      "id": "management_energy_monitoring_frequency",
+      "section": "Management & Technology",
+      "weight": 1,
+      "title": {
+        "cs": "Pravidelný monitoring spotřeby energie",
+        "en": "Regular Energy Monitoring",
+        "de": "Regelmäßiges Monitoring des Energieverbrauchs"
+      },
+      "question": {
+        "cs": "Provádí se pravidelný monitoring spotřeby energie?",
+        "en": "Do you perform regular monitoring of energy consumption?",
+        "de": "Erfolgt regelmäßiges Monitoring des Energieverbrauchs?"
+      },
+      "description": {
+        "cs": "Častější monitoring umožňuje rychle odhalit anomálie a vyhodnocovat dopad opatření.",
+        "en": "More frequent monitoring helps detect anomalies and evaluate measures.",
+        "de": "Häufigeres Monitoring hilft, Anomalien zu erkennen und Maßnahmen zu bewerten."
+      }
+    },
+    {
+      "id": "management_record_temp_requests_for_prediction",
+      "section": "Management & Technology",
+      "weight": 1,
+      "title": {
+        "cs": "Záznam požadavků hostů pro predikce",
+        "en": "Recording Guest Requests for Predictions",
+        "de": "Erfassung von Gästewünschen für Prognosen"
+      },
+      "question": {
+        "cs": "Zaznamenávají se požadavky hostů na regulaci teploty?",
+        "en": "Do you record guests’ temperature requests?",
+        "de": "Werden Wünsche der Gäste zur Temperaturregelung erfasst?"
+      },
+      "description": {
+        "cs": "Záznam požadavků pomáhá zlepšit řízení energie na základě dat.",
+        "en": "Recording requests improves data-driven energy control.",
+        "de": "Die Erfassung der Wünsche verbessert die datengestützte Energiesteuerung."
+      }
+    }
+  ]
+}

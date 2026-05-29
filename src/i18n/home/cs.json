@@ -1,0 +1,37 @@
+{
+  "subtitle": "Projekt Hospodářské komory",
+  "hero": {
+    "headline": "Budoucnost ubytování je v udržitelnosti.",
+    "description": "Zmapujte energetickou náročnost svého ubytovacího zařízení a identifikujte prostor pro zlepšení."
+  },
+  "tiles": {
+    "electricity": {
+      "title": "Elektřina",
+      "description": "Sledování spotřeby energie a obnovitelných zdrojů.",
+      "cta": "Vyplnit analýzu"
+    },
+    "water": {
+      "title": "Voda",
+      "description": "Analýza spotřeby vody a recyklace.",
+      "cta": "Vyplnit analýzu"
+    },
+    "waste": {
+      "title": "Odpad",
+      "description": "Správa odpadu a efektivita recyklace.",
+      "cta": "Vyplnit analýzu"
+    },
+    "self-audit-electricity": {
+      "title": "Self\u2011Audit elektřiny",
+      "description": "Rychlé zhodnocení úspor a opatření pro váš provoz."
+    },
+    "self-audit-water": {
+      "title": "Self\u2011Audit vody",
+      "description": "Rychlé zhodnocení spotřeby vody a úsporných opatření."
+    },
+    "self-audit-waste": {
+      "title": "Self\u2011Audit odpadu",
+      "description": "Rychlé zhodnocení třídění a prevence odpadu."
+    }
+  },
+  "ctaDefault": "Udělat self audit"
+}

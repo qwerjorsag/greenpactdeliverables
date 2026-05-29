@@ -1,0 +1,39 @@
+{
+  "title": "Registrierungsformular",
+  "thankYouTitle": "Danke!",
+  "thankYouDescription": "Ihre Daten wurden erfolgreich gesendet. Wir melden uns bald.",
+  "backHome": "Zur Startseite",
+  "fields": {
+    "accommodationName": "Name der Unterkunft",
+    "accommodationNamePlaceholder": "z. B. Hotel Green",
+    "contactPerson": "Kontaktperson",
+    "email": "E-Mail"
+  },
+  "buttons": {
+    "submitting": "Senden...",
+    "submit": "Registrierung absenden"
+  },
+  "accommodationType": {
+    "label": "Art der Unterkunft",
+    "hotel": {
+      "title": "Hotel",
+      "description": "Traditionelle Unterkunft mit Rezeption und Service.",
+      "tooltip": "Umfasst Hotels, Motels und Pensionen mit täglicher Reinigung."
+    },
+    "hostel": {
+      "title": "Hostel",
+      "description": "Gemeinschaftliche Unterkunft mit Fokus auf Community.",
+      "tooltip": "Einrichtungen mit Mehrbettzimmern und gemeinsamen Bädern."
+    },
+    "apartment": {
+      "title": "Apartment",
+      "description": "Eigenständige Einheiten mit privater Küche.",
+      "tooltip": "Kurzzeitmieten ganzer Wohnungen oder Häuser ohne tägliche Reinigung."
+    },
+    "campsite": {
+      "title": "Campingplatz",
+      "description": "Outdoor-Unterkünfte für Zelte und Wohnmobile.",
+      "tooltip": "Umfasst klassische Campingplätze, Glamping und Stellplätze."
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "ratingMatrix": {
+    "headers": {
+      "rating": "Rating",
+      "meaning": "Meaning",
+      "typicalProfile": "Typical profile",
+      "recommendedNextSteps": "Recommended next steps"
+    },
+    "bands": {
+      "basic": {
+        "label": "Basic (0–25)",
+        "min": 0,
+        "max": 25,
+        "meaning": "No systematic measurement; no defined water-saving initiatives.",
+        "typicalProfile": "Facility without metering or monthly tracking.",
+        "recommendedNextSteps": "Start monthly monitoring, set a baseline and identify top water uses (guest bathrooms, laundry, kitchens)."
+      },
+      "bronze": {
+        "label": "Bronze (26–50)",
+        "min": 26,
+        "max": 50,
+        "meaning": "Partial tracking and basic actions (linen/towel reuse, maintenance).",
+        "typicalProfile": "Facility with basic awareness; limited metering.",
+        "recommendedNextSteps": "Install meters/smart sub-meters, train staff, fix visible leaks, and set a yearly reduction target."
+      },
+      "silver": {
+        "label": "Silver (51–75)",
+        "min": 51,
+        "max": 75,
+        "meaning": "Active water management; low-flow fixtures and first reuse solutions.",
+        "typicalProfile": "Facility with monitoring and optimisation.",
+        "recommendedNextSteps": "Introduce rainwater harvesting or greywater reuse for non‑potable uses; schedule regular leak detection."
+      },
+      "gold": {
+        "label": "Gold (76–90)",
+        "min": 76,
+        "max": 90,
+        "meaning": "Advanced efficiency, reuse and continuous monitoring.",
+        "typicalProfile": "Facility with targets, smart meters and audits.",
+        "recommendedNextSteps": "Benchmark against peers; expand reuse systems (toilets/irrigation), optimise laundry and kitchen processes."
+      },
+      "platinum": {
+        "label": "Platinum (91–100)",
+        "min": 91,
+        "max": 100,
+        "meaning": "Exemplary water stewardship and circularity (>20% reused/harvested).",
+        "typicalProfile": "Facility with full monitoring and performance verified over time.",
+        "recommendedNextSteps": "Maintain performance, certify (e.g., ISO 14001/50001) and share best practices with peers and local community."
+      }
+    }
+  }
+}

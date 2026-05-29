@@ -1,0 +1,80 @@
+{
+  "cards": [
+    {
+      "id": "water_leak_detection",
+      "weight": 1,
+      "title": {
+        "cs": "Detekce úniků vody",
+        "en": "Water Leak Detection",
+        "de": "Erkennung von Wasserlecks"
+      },
+      "question": {
+        "cs": "Máte zavedený systém pro rychlé odhalení úniků vody?",
+        "en": "Do you have a system in place to quickly detect water leaks?",
+        "de": "Gibt es ein System, um Wasserlecks schnell zu erkennen?"
+      },
+      "description": {
+        "cs": "Pravidelné kontroly a monitoring pomáhají minimalizovat ztráty vody a náklady.",
+        "en": "Regular checks and monitoring help minimize water loss and costs.",
+        "de": "Regelmäßige Kontrollen und Monitoring minimieren Wasserverluste und Kosten."
+      }
+    },
+    {
+      "id": "low_flow_fixtures",
+      "weight": 1,
+      "title": {
+        "cs": "Úsporné armatury",
+        "en": "Low-flow Fixtures",
+        "de": "Wassersparende Armaturen"
+      },
+      "question": {
+        "cs": "Používáte úsporné sprchy a perlátory u umyvadel?",
+        "en": "Do you use low-flow showers and faucet aerators?",
+        "de": "Nutzen Sie wassersparende Duschen und Strahlregler an Armaturen?"
+      },
+      "description": {
+        "cs": "Úsporné armatury výrazně snižují spotřebu vody bez ztráty komfortu.",
+        "en": "Low-flow fixtures reduce water use without sacrificing comfort.",
+        "de": "Wassersparende Armaturen reduzieren den Verbrauch ohne Komfortverlust."
+      }
+    },
+    {
+      "id": "linen_towel_reuse",
+      "weight": 1,
+      "title": {
+        "cs": "Opakované použití prádla",
+        "en": "Linen & Towel Reuse",
+        "de": "Wiederverwendung von Wäsche & Handtüchern"
+      },
+      "question": {
+        "cs": "Nabízíte hostům možnost opakovaného použití ručníků a ložního prádla?",
+        "en": "Do you offer guests the option to reuse towels and bed linen?",
+        "de": "Bieten Sie Gästen die Möglichkeit, Handtücher und Bettwäsche wiederzuverwenden?"
+      },
+      "description": {
+        "cs": "Re-use programy snižují spotřebu vody i energie při praní.",
+        "en": "Re-use programs reduce both water and energy used for laundry.",
+        "de": "Wiederverwendungsprogramme reduzieren Wasser- und Energieverbrauch beim Waschen."
+      }
+    },
+    {
+      "id": "water_consumption_tracking",
+      "weight": 1,
+      "title": {
+        "cs": "Sledování spotřeby vody",
+        "en": "Water Consumption Tracking",
+        "de": "Monitoring des Wasserverbrauchs"
+      },
+      "question": {
+        "cs": "Sledujete spotřebu vody pravidelně a vyhodnocujete odchylky?",
+        "en": "Do you regularly track water consumption and review deviations?",
+        "de": "Verfolgen Sie den Wasserverbrauch regelmäßig und prüfen Abweichungen?"
+      },
+      "description": {
+        "cs": "Průběžné sledování pomáhá rychle reagovat na nárůst spotřeby.",
+        "en": "Ongoing tracking helps quickly react to usage spikes.",
+        "de": "Laufendes Monitoring hilft, auf Verbrauchsspitzen schnell zu reagieren."
+      }
+    }
+  ]
+}

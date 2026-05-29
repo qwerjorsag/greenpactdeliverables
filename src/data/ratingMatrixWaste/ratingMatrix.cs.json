@@ -1,0 +1,52 @@
+{
+  "ratingMatrix": {
+    "headers": {
+      "rating": "Hodnocení",
+      "meaning": "Význam",
+      "typicalProfile": "Typický profil",
+      "recommendedNextSteps": "Doporučené další kroky"
+    },
+    "bands": {
+      "basic": {
+        "label": "Basic (0–25)",
+        "min": 0,
+        "max": 25,
+        "meaning": "Bez monitoringu a třídění odpadu.",
+        "typicalProfile": "Zařízení bez recyklačního plánu nebo sledování.",
+        "recommendedNextSteps": "Začněte měřit celkové množství odpadu a stanovte výchozí hodnotu míry recyklace."
+      },
+      "bronze": {
+        "label": "Bronze (26–50)",
+        "min": 26,
+        "max": 50,
+        "meaning": "Základní třídění a částečné sledování zavedeno.",
+        "typicalProfile": "Menší zařízení s jednoduchými koši a informačními plakáty.",
+        "recommendedNextSteps": "Zaveďte měsíční sledování podle typu odpadu, zlepšete značení a spolupracujte s dodavateli na snížení obalů."
+      },
+      "silver": {
+        "label": "Silver (51–75)",
+        "min": 51,
+        "max": 75,
+        "meaning": "Aktivní management odpadu a třídění hlavních toků.",
+        "typicalProfile": "Středně velké zařízení se zavedenou recyklací a spoluprací s dodavateli.",
+        "recommendedNextSteps": "Zaveďte kompostování nebo anaerobní digestaci potravinového odpadu; měřte míru recyklace kvartálně."
+      },
+      "gold": {
+        "label": "Gold (76–90)",
+        "min": 76,
+        "max": 90,
+        "meaning": "Pokročilé cirkulární postupy a zapojení dodavatelů.",
+        "typicalProfile": "Zařízení s plány snižování odpadu a dohledatelností výstupů.",
+        "recommendedNextSteps": "Optimalizujte recyklační toky, rozšiřte cirkulární obaly a refill systémy, sledujte intenzitu odpadu."
+      },
+      "platinum": {
+        "label": "Platinum (91–100)",
+        "min": 91,
+        "max": 100,
+        "meaning": "Ukázková prevence odpadu a plná dohledatelnost; >90 % odklon od skládky.",
+        "typicalProfile": "Zařízení s ověřeným výkonem a téměř nulovým odpadem.",
+        "recommendedNextSteps": "Sdílejte best practices, zapojte místní komunitu a usilujte o certifikaci zero-waste."
+      }
+    }
+  }
+}

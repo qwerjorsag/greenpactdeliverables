@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Domů",
+    "electricity": "Elektřina",
+    "water": "Voda",
+    "waste": "Odpad"
+  },
+  "footer": {
+    "project": "Projekt Hospodářské komory",
+    "copyright": "© {{year}}",
+    "privacy": "Soukromí",
+    "methodology": "Metodika",
+    "contact": "Kontakt",
+    "alt": "Hospodářská komora"
+  },
+  "partners": {
+    "title": "Partneři",
+    "placeholder": "Logo partnera",
+    "logoAlt": "Logo partnera {{index}}"
+  },
+  "contactInfo": {
+    "title": "Kontakty",
+    "orgName": "Hospodářská komora ČR",
+    "addressLines": [
+      "Florentinum, recepce A",
+      "Na Florenci 2116/15",
+      "110 00 Praha 1"
+    ],
+    "companyId": {
+      "label": "IČO",
+      "value": "49279530"
+    },
+    "vatId": {
+      "label": "DIČ",
+      "value": "CZ49279530"
+    },
+    "registration": "Registrace u Městského soudu v Praze",
+    "fileNumber": {
+      "label": "Spisová značka",
+      "value": "A 8179"
+    },
+    "phone": "+420 266 721 300",
+    "email": "office@komora.cz",
+    "dataBox": {
+      "label": "Datová schránka",
+      "value": "9nqab6b"
+    }
+  },
+  "periodData": {
+    "title": "Provozní údaje",
+    "period": "Období",
+    "autoText": "Tato hodnota se počítá automaticky",
+    "occupancyRate": "Obsazenost (%)",
+    "operatingDays": "Provozní dny",
+    "operatingDaysError": "Rok má max 365 dnů",
+    "rooms": "Počet pokojů",
+    "floorArea": "Podlahová plocha (m²)",
+    "roomNights": "Pokojonoci"
+  },
+  "selfAuditRating": {
+    "excellent": "Výborné",
+    "veryGood": "Velmi dobré",
+    "sufficient": "Dostatečné",
+    "weak": "Slabé",
+    "insufficient": "Nedostatečné"
+  }
+}

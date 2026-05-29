@@ -1,0 +1,46 @@
+{
+  "loading": "Datenzugriff wird geladen...",
+  "errors": {
+    "loginFailed": "Anmeldung fehlgeschlagen",
+    "loadFailed": "Daten konnten nicht geladen werden",
+    "exportFailed": "Datenbankexport konnte nicht heruntergeladen werden"
+  },
+  "auth": {
+    "eyebrow": "Datenzugriff",
+    "title": "Anmeldung zur Datenübersicht",
+    "description": "Der Zugriff ist auf ein internes, in der Datenbank gespeichertes Konto beschränkt.",
+    "usernameLabel": "Benutzername",
+    "usernamePlaceholder": "Benutzernamen eingeben",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Passwort eingeben",
+    "submit": "Anmelden",
+    "submitting": "Anmeldung läuft..."
+  },
+  "overview": {
+    "eyebrow": "Geschützte Daten",
+    "title": "Übersicht der gespeicherten Daten",
+    "loggedInAs": "Angemeldeter Benutzer:",
+    "logout": "Abmelden",
+    "downloadDatabase": "Datenbank herunterladen",
+    "downloadingDatabase": "Export wird vorbereitet...",
+    "counts": {
+      "electricity": "Strom",
+      "water": "Wasser",
+      "waste": "Abfall",
+      "electricitySelfAudits": "Strom-Selbstaudits",
+      "waterSelfAudits": "Wasser-Selbstaudits",
+      "wasteSelfAudits": "Abfall-Selbstaudits"
+    },
+    "submissionStats": {
+      "last24Hours": "Letzte 24 Stunden",
+      "last7Days": "Letzte 7 Tage",
+      "last28Days": "Letzte 28 Tage"
+    },
+    "selfAuditStats": {
+      "last24Hours": "Letzte 24 Stunden",
+      "last7Days": "Letzte 7 Tage",
+      "last28Days": "Letzte 28 Tage"
+    },
+    "separator": "Self-Audits"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "ratingMatrix": {
+    "headers": {
+      "rating": "Bewertung",
+      "meaning": "Bedeutung",
+      "typicalProfile": "Typisches Profil",
+      "recommendedNextSteps": "Empfohlene nächste Schritte"
+    },
+    "bands": {
+      "basic": {
+        "label": "Basis (0–25)",
+        "min": 0,
+        "max": 25,
+        "meaning": "Keine Überwachung oder Trennung von Abfällen.",
+        "typicalProfile": "Betrieb ohne Recyclingplan oder Tracking.",
+        "recommendedNextSteps": "Gesamtabfall messen und Basislinie für Recyclingquote festlegen."
+      },
+      "bronze": {
+        "label": "Bronze (26–50)",
+        "min": 26,
+        "max": 50,
+        "meaning": "Grundlegende Trennung und teilweise Erfassung.",
+        "typicalProfile": "Kleiner Betrieb mit einfachen Behältern und Hinweisschildern.",
+        "recommendedNextSteps": "Monatliches Tracking nach Abfalltyp, bessere Beschilderung, Verpackungsreduktion mit Lieferanten."
+      },
+      "silver": {
+        "label": "Silber (51–75)",
+        "min": 51,
+        "max": 75,
+        "meaning": "Aktives Abfallmanagement und Trennung der Hauptströme.",
+        "typicalProfile": "Mittelgroßer Betrieb mit etabliertem Recycling.",
+        "recommendedNextSteps": "Kompostierung/AD für Bioabfälle hinzufügen; Recyclingquote quartalsweise messen."
+      },
+      "gold": {
+        "label": "Gold (76–90)",
+        "min": 76,
+        "max": 90,
+        "meaning": "Fortgeschrittene Kreislaufpraktiken und Lieferanten‑Engagement.",
+        "typicalProfile": "Betrieb mit Abfallreduktionsplänen und Rückverfolgbarkeit.",
+        "recommendedNextSteps": "Verwertungsströme optimieren, Kreislauf‑Verpackungen ausbauen, Abfallintensität überwachen."
+      },
+      "platinum": {
+        "label": "Platin (91–100)",
+        "min": 91,
+        "max": 100,
+        "meaning": "Vorbildliche Abfallvermeidung und vollständige Nachverfolgbarkeit; >90% Umleitung von Deponie.",
+        "typicalProfile": "Betrieb mit verifizierter Leistung und nahezu Zero‑Waste.",
+        "recommendedNextSteps": "Best Practices teilen, lokale Community einbinden und Zero‑Waste‑Zertifizierung anstreben."
+      }
+    }
+  }
+}

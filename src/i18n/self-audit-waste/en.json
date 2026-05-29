@@ -1,0 +1,34 @@
+{
+  "page": {
+    "title": "Waste Self-Audit",
+    "description": "Quick assessment of waste sorting and prevention."
+  },
+  "consent": {
+    "label": "By submitting, I agree to the processing of the provided data."
+  },
+  "buttons": {
+    "evaluating": "Evaluating...",
+    "evaluate": "Evaluate and generate PDF"
+  },
+  "tooltip": {
+    "missingProfile": "Please select an accommodation profile.",
+    "missingConsent": "You must agree to data processing.",
+    "evaluating": "Evaluation is in progress."
+  },
+  "modal": {
+    "title": "Generate PDF",
+    "description": "Your data has been submitted. You can now download the PDF report.",
+    "download": "Generate PDF",
+    "close": "Close"
+  },
+  "errors": {
+    "submitFailed": "Submission failed. Please try again."
+  },
+  "pdf": {
+    "title": "Waste Self-Audit"
+  },
+  "facilityName": {
+    "label": "Facility name (optional)",
+    "placeholder": "e.g. Hotel Flora"
+  }
+}

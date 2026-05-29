@@ -1,0 +1,52 @@
+{
+  "ratingMatrix": {
+    "headers": {
+      "rating": "Hodnocení",
+      "meaning": "Význam",
+      "typicalProfile": "Typický profil",
+      "recommendedNextSteps": "Doporučené další kroky"
+    },
+    "bands": {
+      "basic": {
+        "label": "Basic (0–25)",
+        "min": 0,
+        "max": 25,
+        "meaning": "Bez systematického měření; bez definovaných úspor vody.",
+        "typicalProfile": "Zařízení bez měření nebo měsíčního sledování.",
+        "recommendedNextSteps": "Zaveďte měsíční monitoring, stanovte výchozí stav a určete hlavní spotřeby (koupelny hostů, prádelna, kuchyně)."
+      },
+      "bronze": {
+        "label": "Bronze (26–50)",
+        "min": 26,
+        "max": 50,
+        "meaning": "Částečné sledování a základní opatření (opakované používání ručníků/ložního prádla, údržba).",
+        "typicalProfile": "Zařízení se základním povědomím; omezené měření.",
+        "recommendedNextSteps": "Instalujte vodoměry/chytré podružné měřiče, proškolte personál, opravte viditelné úniky a stanovte roční cíl snížení."
+      },
+      "silver": {
+        "label": "Silver (51–75)",
+        "min": 51,
+        "max": 75,
+        "meaning": "Aktivní řízení vody; úsporné armatury a první řešení opětovného využití.",
+        "typicalProfile": "Zařízení s monitoringem a optimalizací.",
+        "recommendedNextSteps": "Zaveďte zachytávání dešťové vody nebo využití šedé vody pro nepitné účely; naplánujte pravidelnou detekci úniků."
+      },
+      "gold": {
+        "label": "Gold (76–90)",
+        "min": 76,
+        "max": 90,
+        "meaning": "Pokročilá efektivita, opětovné využití a kontinuální monitoring.",
+        "typicalProfile": "Zařízení s cíli, chytrými měřiči a audity.",
+        "recommendedNextSteps": "Porovnávejte se s podobnými zařízeními; rozšiřte reuse systémy (toalety/závlaha), optimalizujte prádelnu a kuchyň."
+      },
+      "platinum": {
+        "label": "Platinum (91–100)",
+        "min": 91,
+        "max": 100,
+        "meaning": "Ukázkové hospodaření s vodou a cirkularita (>20 % opětovně využité / zachycené).",
+        "typicalProfile": "Zařízení s plným monitoringem a dlouhodobě ověřeným výkonem.",
+        "recommendedNextSteps": "Udržujte výkon, certifikujte (např. ISO 14001/50001) a sdílejte best practices s partnery a místní komunitou."
+      }
+    }
+  }
+}

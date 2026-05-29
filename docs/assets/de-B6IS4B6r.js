@@ -1,0 +1,1 @@
+const e="Methodik",t="Methodik‑Überblick und Quellen",n="Die Inhalte der Methodik werden in den nächsten Schritten ergänzt.",i={title:e,subtitle:t,intro:n};export{i as default,n as intro,t as subtitle,e as title};

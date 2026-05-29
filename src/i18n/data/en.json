@@ -1,0 +1,46 @@
+{
+  "loading": "Loading data access...",
+  "errors": {
+    "loginFailed": "Login failed",
+    "loadFailed": "Failed to load data",
+    "exportFailed": "Failed to download database export"
+  },
+  "auth": {
+    "eyebrow": "Data Access",
+    "title": "Sign in to data overview",
+    "description": "Access is limited to an internal account stored in the database.",
+    "usernameLabel": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "submit": "Sign in",
+    "submitting": "Signing in..."
+  },
+  "overview": {
+    "eyebrow": "Protected Data",
+    "title": "Stored data overview",
+    "loggedInAs": "Signed in as:",
+    "logout": "Log out",
+    "downloadDatabase": "Download database",
+    "downloadingDatabase": "Preparing export...",
+    "counts": {
+      "electricity": "Electricity",
+      "water": "Water",
+      "waste": "Waste",
+      "electricitySelfAudits": "Electricity self-audits",
+      "waterSelfAudits": "Water self-audits",
+      "wasteSelfAudits": "Waste self-audits"
+    },
+    "submissionStats": {
+      "last24Hours": "Last 24 hours",
+      "last7Days": "Last 7 days",
+      "last28Days": "Last 28 days"
+    },
+    "selfAuditStats": {
+      "last24Hours": "Last 24 hours",
+      "last7Days": "Last 7 days",
+      "last28Days": "Last 28 days"
+    },
+    "separator": "Self-audits"
+  }
+}

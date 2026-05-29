@@ -1,0 +1,122 @@
+{
+  "tiles": [
+    {
+      "id": "electricity",
+      "icon": "electricity",
+      "path": "/electricity",
+      "color": "bg-amber-50",
+      "hoverBorder": "hover:border-amber-500",
+      "hoverShadow": "hover:shadow-amber-900/10",
+      "ctaText": "text-amber-700",
+      "title": {
+        "cs": "Elektřina",
+        "en": "Electricity"
+      },
+      "description": {
+        "cs": "Sledování spotřeby energie a obnovitelných zdrojů.",
+        "en": "Track energy consumption and renewable sources."
+      },
+      "cta": {
+        "cs": "Vyplnit analýzu",
+        "en": "Fill in analysis"
+      }
+    },
+    {
+      "id": "water",
+      "icon": "water",
+      "path": "/water",
+      "color": "bg-blue-50",
+      "hoverBorder": "hover:border-blue-500",
+      "hoverShadow": "hover:shadow-blue-900/10",
+      "ctaText": "text-blue-600",
+      "title": {
+        "cs": "Voda",
+        "en": "Water"
+      },
+      "description": {
+        "cs": "Analýza spotřeby vody a recyklace.",
+        "en": "Analyze water usage and recycling."
+      },
+      "cta": {
+        "cs": "Vyplnit analýzu",
+        "en": "Fill in analysis"
+      }
+    },
+    {
+      "id": "waste",
+      "icon": "waste",
+      "path": "/waste",
+      "color": "bg-stone-100",
+      "hoverBorder": "hover:border-stone-500",
+      "hoverShadow": "hover:shadow-stone-900/10",
+      "ctaText": "text-stone-700",
+      "title": {
+        "cs": "Odpad",
+        "en": "Waste"
+      },
+      "description": {
+        "cs": "Správa odpadu a efektivita recyklace.",
+        "en": "Waste management and recycling efficiency."
+      },
+      "cta": {
+        "cs": "Vyplnit analýzu",
+        "en": "Fill in analysis"
+      }
+    },
+    {
+      "id": "self-audit-electricity",
+      "icon": "electricity",
+      "path": "/electricityaudit",
+      "color": "bg-amber-50",
+      "hoverBorder": "hover:border-amber-500",
+      "hoverShadow": "hover:shadow-amber-900/10",
+      "ctaText": "text-amber-700",
+      "title": {
+        "cs": "Self-Audit elektřiny",
+        "en": "Electricity Self-Audit"
+      },
+      "description": {
+        "cs": "Rychlé zhodnocení úspor a opatření pro váš provoz.",
+        "en": "Quick assessment of savings and measures for your operation."
+      }
+    },
+    {
+      "id": "self-audit-water",
+      "icon": "water",
+      "path": "/wateraudit",
+      "color": "bg-blue-50",
+      "hoverBorder": "hover:border-blue-500",
+      "hoverShadow": "hover:shadow-blue-900/10",
+      "ctaText": "text-blue-600",
+      "title": {
+        "cs": "Self-Audit vody",
+        "en": "Water Self-Audit"
+      },
+      "description": {
+        "cs": "Rychlé zhodnocení spotřeby vody a úsporných opatření.",
+        "en": "Quick assessment of water use and saving measures."
+      }
+    },
+    {
+      "id": "self-audit-waste",
+      "icon": "waste",
+      "path": "/wasteaudit",
+      "color": "bg-stone-100",
+      "hoverBorder": "hover:border-stone-500",
+      "hoverShadow": "hover:shadow-stone-900/10",
+      "ctaText": "text-stone-700",
+      "title": {
+        "cs": "Self-Audit odpadu",
+        "en": "Waste Self-Audit"
+      },
+      "description": {
+        "cs": "Rychlé zhodnocení třídění a prevence odpadu.",
+        "en": "Quick assessment of waste sorting and prevention."
+      }
+    }
+  ],
+  "cta": {
+    "cs": "Udělat self audit",
+    "en": "Run self audit"
+  }
+}

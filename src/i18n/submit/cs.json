@@ -1,0 +1,39 @@
+{
+  "title": "Registrační formulář",
+  "thankYouTitle": "Děkujeme!",
+  "thankYouDescription": "Vaše data byla úspěšně odeslána. Budeme vás brzy kontaktovat.",
+  "backHome": "Zpět na úvod",
+  "fields": {
+    "accommodationName": "Název ubytování",
+    "accommodationNamePlaceholder": "Např. Hotel Green",
+    "contactPerson": "Kontaktní osoba",
+    "email": "Email"
+  },
+  "buttons": {
+    "submitting": "Odesílám...",
+    "submit": "Odeslat registraci"
+  },
+  "accommodationType": {
+    "label": "Druh ubytovacího zařízení",
+    "hotel": {
+      "title": "Hotel",
+      "description": "Tradiční ubytovací zařízení s recepcí a službami.",
+      "tooltip": "Zahrnuje hotely, motely a penziony s každodenním úklidem."
+    },
+    "hostel": {
+      "title": "Hostel",
+      "description": "Sdílené ubytování zaměřené na komunitu.",
+      "tooltip": "Zařízení se sdílenými pokoji (dormitory) a společným sociálním zařízením."
+    },
+    "apartment": {
+      "title": "Apartmán",
+      "description": "Samostatné bytové jednotky s vlastní kuchyní.",
+      "tooltip": "Krátkodobé pronájmy celých bytů nebo domů bez každodenního úklidu."
+    },
+    "campsite": {
+      "title": "Kemp",
+      "description": "Venkovní ubytování pro stany a karavany.",
+      "tooltip": "Zahrnuje tradiční kempy, glamping a stání pro karavany."
+    }
+  }
+}

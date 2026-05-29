@@ -1,0 +1,52 @@
+{
+  "ratingMatrix": {
+    "headers": {
+      "rating": "Bewertung",
+      "meaning": "Bedeutung",
+      "typicalProfile": "Typisches Profil",
+      "recommendedNextSteps": "Empfohlene nächste Schritte"
+    },
+    "bands": {
+      "basic": {
+        "label": "Basis (0–25)",
+        "min": 0,
+        "max": 25,
+        "meaning": "Keine systematische Messung; keine Wassersparmaßnahmen.",
+        "typicalProfile": "Betrieb ohne Zähler oder monatliches Tracking.",
+        "recommendedNextSteps": "Monatliches Monitoring starten, Basislinie setzen und Hauptverbraucher identifizieren (Bäder, Wäscherei, Küche)."
+      },
+      "bronze": {
+        "label": "Bronze (26–50)",
+        "min": 26,
+        "max": 50,
+        "meaning": "Teilweise Erfassung und einfache Maßnahmen (Wäsche/Handtuch‑Reuse, Wartung).",
+        "typicalProfile": "Grundbewusstsein vorhanden; begrenzte Messung.",
+        "recommendedNextSteps": "Zähler/Sub‑Meter installieren, Personal schulen, Lecks beheben, jährliches Reduktionsziel setzen."
+      },
+      "silver": {
+        "label": "Silber (51–75)",
+        "min": 51,
+        "max": 75,
+        "meaning": "Aktives Wassermanagement; Spararmaturen und erste Wiederverwendung.",
+        "typicalProfile": "Betrieb mit Monitoring und Optimierung.",
+        "recommendedNextSteps": "Regenwasser oder Grauwasser für Nicht‑Trinkwasser nutzen; regelmäßige Lecksuche."
+      },
+      "gold": {
+        "label": "Gold (76–90)",
+        "min": 76,
+        "max": 90,
+        "meaning": "Hohe Effizienz, Wiederverwendung und kontinuierliches Monitoring.",
+        "typicalProfile": "Betrieb mit Zielen, Smart‑Metern und Audits.",
+        "recommendedNextSteps": "Benchmarking, Wiederverwendung ausbauen (Toiletten/Bewässerung), Wäscherei und Küche optimieren."
+      },
+      "platinum": {
+        "label": "Platin (91–100)",
+        "min": 91,
+        "max": 100,
+        "meaning": "Vorbildlicher Wasser‑Kreislauf (>20% wiederverwendet/gesammelt).",
+        "typicalProfile": "Vollständiges Monitoring, Leistung über Zeit verifiziert.",
+        "recommendedNextSteps": "Leistung halten, zertifizieren (z. B. ISO 14001/50001) und Best Practices teilen."
+      }
+    }
+  }
+}

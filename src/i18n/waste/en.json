@@ -1,0 +1,79 @@
+{
+  "page": {
+    "title": "Waste",
+    "description": "Effective waste management reduces disposal costs and improves the image of your accommodation with guests."
+  },
+  "validation": {
+    "missingProfile": "Please select an accommodation profile.",
+    "invalidOperatingDays": "The year has a maximum of 365 days.",
+    "missingFields": "Please complete all fields in the tables: Operational Data and Waste Streams.",
+    "missingConsent": "You must agree to data processing."
+  },
+  "alerts": {
+    "submitted": "Data submitted. PDF generation will be added later."
+  },
+  "buttons": {
+    "generating": "Generating...",
+    "generatePdf": "Generate PDF",
+    "goToSelfAudit": "Go to Waste Self-Audit"
+  },
+  "consent": {
+    "label": "By submitting I agree to the processing of the entered data."
+  },
+  "summary": {
+    "title": "What we measure?",
+    "items": {
+      "totalWaste": "Total waste (kg)",
+      "recycledWaste": "Recycled waste (kg)",
+      "recyclingRate": "Recycling rate (%)"
+    },
+    "whyTitle": "Why it matters?",
+    "whyText": "The average hotel produces 1 kg of waste per guest per night. With proper sorting, up to 80% of this volume can be recycled.",
+    "quote": "\"There is no such thing as 'away'. When we throw anything away, it must go somewhere.\" — Annie Leonard"
+  },
+  "wasteStreams": {
+    "title": "Waste streams",
+    "headerStream": "Waste stream",
+    "quantity": "Quantity (kg/year)",
+    "destination": "Destination / Treatment",
+    "recycled": "Recycled (kg)",
+    "recovered": "Recovered incl. compost/AD/energy (kg)",
+    "share": "Share of total (%)",
+    "total": "TOTAL (kg)",
+    "placeholder": "Enter",
+    "rows": {
+      "mixed": {
+        "label": "Mixed municipal waste",
+        "notes": "Residual waste sent to general disposal (landfill/incineration)."
+      },
+      "paper": {
+        "label": "Paper and cardboard",
+        "notes": "Office and packaging paper/cardboard."
+      },
+      "plastics": {
+        "label": "Plastics",
+        "notes": "Packaging materials and bottles."
+      },
+      "glass": {
+        "label": "Glass",
+        "notes": "Bottles and jars."
+      },
+      "metal": {
+        "label": "Metal",
+        "notes": "Aluminium, steel cans, etc."
+      },
+      "organic": {
+        "label": "Organic / Food waste",
+        "notes": "Kitchen and restaurant waste; suitable for composting/AD."
+      },
+      "other": {
+        "label": "Other (e-waste, hazardous)",
+        "notes": "Batteries, bulbs, chemicals – specialised treatment."
+      }
+    }
+  },
+  "facilityName": {
+    "label": "Facility name (optional)",
+    "placeholder": "e.g. Hotel Flora"
+  }
+}

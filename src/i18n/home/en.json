@@ -1,0 +1,37 @@
+{
+  "subtitle": "Chamber of Commerce project",
+  "hero": {
+    "headline": "The future of accommodation is in sustainability.",
+    "description": "Map your sustainability and discover room for improvement."
+  },
+  "tiles": {
+    "electricity": {
+      "title": "Electricity",
+      "description": "Track energy consumption and renewable sources.",
+      "cta": "Fill in analysis"
+    },
+    "water": {
+      "title": "Water",
+      "description": "Analyze water usage and recycling.",
+      "cta": "Fill in analysis"
+    },
+    "waste": {
+      "title": "Waste",
+      "description": "Waste management and recycling efficiency.",
+      "cta": "Fill in analysis"
+    },
+    "self-audit-electricity": {
+      "title": "Electricity Self\u2011Audit",
+      "description": "Quick assessment of savings and measures for your operation."
+    },
+    "self-audit-water": {
+      "title": "Water Self\u2011Audit",
+      "description": "Quick assessment of water use and saving measures."
+    },
+    "self-audit-waste": {
+      "title": "Waste Self\u2011Audit",
+      "description": "Quick assessment of waste sorting and prevention."
+    }
+  },
+  "ctaDefault": "Run self audit"
+}

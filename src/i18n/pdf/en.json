@@ -1,0 +1,86 @@
+{
+  "cover": {
+    "subtitle": "ACCOMMODATION SUSTAINABILITY ANALYSIS",
+    "facilityName": "Facility name"
+  },
+  "operationalData": {
+    "title": "Operational Data",
+    "metric": "Metric",
+    "period": "Period",
+    "occupancyRate": "Occupancy rate (%)",
+    "operatingDays": "Operating days",
+    "rooms": "Number of rooms",
+    "floorArea": "Floor area (m²)",
+    "roomNights": "Room nights"
+  },
+  "energy": {
+    "energySource": "Energy source",
+    "kwhTitle": "ENERGY (kWh)",
+    "gjTitle": "ENERGY (GJ)",
+    "emissionsTitle": "EMISSIONS (t CO₂e)"
+  },
+  "renewables": {
+    "title": "Renewable sources",
+    "year": "Year",
+    "renewable": "Renewable (kWh)",
+    "nonRenewable": "Non-renewable (kWh)"
+  },
+  "consumption": {
+    "titleRn": "Total energy consumption per room-night (RN)",
+    "titleM2": "Total energy consumption per m² per year",
+    "year": "Year",
+    "consumptionKwh": "Consumption (kWh)",
+    "consumptionGj": "Consumption (GJ)",
+    "normalizedRn": "Normalized (GJ/RN)",
+    "normalizedM2": "Normalized (GJ/m²/year)",
+    "percentChange": "% change",
+    "evaluation": "Evaluation",
+    "reportTitleRn": "Report Total energy consumption per room-night (RN)",
+    "reportTitleM2": "Report Total energy consumption per m² per year"
+  },
+  "evaluation": {
+    "significantIncrease": "Significant increase",
+    "significantDecrease": "Significant decrease",
+    "moderateChange": "Moderate change",
+    "minorChange": "Minor change"
+  },
+  "report": {
+    "stable": "Stable trend – maintain current practices and keep staff motivated.",
+    "slightImprovement": "Slight improvement observed – monitor if the trend continues.",
+    "slightIncrease": "Slight increase in consumption – analyze possible reasons.",
+    "significantImprovement": "Great! Significant improvement – include in ESG report and inspire others.",
+    "significantIncrease": "Significant increase – detailed analysis and action plan recommended.",
+    "majorImprovement": "Major improvement – analyze what worked and standardize the approach.",
+    "majorDeterioration": "Major deterioration – immediate action and optimization needed."
+  },
+  "benchmarks": {
+    "totalWeightedScore": "Total weighted score",
+    "rating": "Rating",
+    "year": "Year"
+  },
+  "energyManagement": {
+    "metric": "Metric",
+    "expected": "Expected value",
+    "results": "Results",
+    "recommendation": "Recommendation"
+  },
+  "selfAudit": {
+    "resultsTitle": "Self-Audit Results",
+    "overallScore": "Overall score",
+    "facilityName": "Facility name"
+  },
+  "serverReport": {
+    "title": "GreenPact Sustainability Report",
+    "id": "Submission ID",
+    "date": "Date",
+    "version": "Methodology Version",
+    "acc": "Accommodation",
+    "type": "Type",
+    "kpis": "Computed KPIs",
+    "rating": "Overall Rating",
+    "energy": "Energy per Guest",
+    "water": "Water per Guest",
+    "waste": "Waste Recycling Rate",
+    "recs": "Recommendations"
+  }
+}

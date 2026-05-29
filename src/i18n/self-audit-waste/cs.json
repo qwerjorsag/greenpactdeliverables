@@ -1,0 +1,34 @@
+{
+  "page": {
+    "title": "Self-Audit odpadu",
+    "description": "Rychlé zhodnocení třídění a prevence odpadu."
+  },
+  "consent": {
+    "label": "Odesláním souhlasím se zpracováním vložených údajů."
+  },
+  "buttons": {
+    "evaluating": "Vyhodnocuji...",
+    "evaluate": "Vyhodnotit a generovat PDF"
+  },
+  "tooltip": {
+    "missingProfile": "Vyberte profil ubytování.",
+    "missingConsent": "Je nutné souhlasit se zpracováním údajů.",
+    "evaluating": "Probíhá vyhodnocení."
+  },
+  "modal": {
+    "title": "Generovat PDF",
+    "description": "Data byla úspěšně odeslána. Nyní si můžete stáhnout PDF report.",
+    "download": "Generovat PDF",
+    "close": "Zavřít"
+  },
+  "errors": {
+    "submitFailed": "Odeslání se nezdařilo. Zkuste to znovu."
+  },
+  "pdf": {
+    "title": "Self-Audit odpadu"
+  },
+  "facilityName": {
+    "label": "Název zařízení (volitelné)",
+    "placeholder": "Např. Hotel Flora"
+  }
+}

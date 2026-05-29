@@ -1,0 +1,80 @@
+{
+  "cards": [
+    {
+      "id": "waste_sorting_system",
+      "weight": 1,
+      "title": {
+        "cs": "Třídění odpadu",
+        "en": "Waste Sorting",
+        "de": "Abfalltrennung"
+      },
+      "question": {
+        "cs": "Máte na provozu zavedený systém třídění odpadu?",
+        "en": "Do you have a waste sorting system in place?",
+        "de": "Gibt es ein Abfalltrennsystem im Betrieb?"
+      },
+      "description": {
+        "cs": "Správné třídění snižuje množství směsného odpadu a náklady.",
+        "en": "Proper sorting reduces mixed waste volume and costs.",
+        "de": "Korrekte Trennung reduziert Restmüll und Kosten."
+      }
+    },
+    {
+      "id": "food_waste_reduction",
+      "weight": 1,
+      "title": {
+        "cs": "Snižování potravinového odpadu",
+        "en": "Food Waste Reduction",
+        "de": "Reduzierung von Lebensmittelabfällen"
+      },
+      "question": {
+        "cs": "Sledujete a aktivně snižujete potravinový odpad?",
+        "en": "Do you monitor and actively reduce food waste?",
+        "de": "Überwachen und reduzieren Sie Lebensmittelabfälle aktiv?"
+      },
+      "description": {
+        "cs": "Monitoring pomáhá optimalizovat nákupy a snížit ztráty.",
+        "en": "Tracking helps optimize purchasing and reduce losses.",
+        "de": "Monitoring hilft, den Einkauf zu optimieren und Verluste zu senken."
+      }
+    },
+    {
+      "id": "single_use_reduction",
+      "weight": 1,
+      "title": {
+        "cs": "Omezení jednorázových plastů",
+        "en": "Single-use Reduction",
+        "de": "Reduktion von Einwegkunststoffen"
+      },
+      "question": {
+        "cs": "Omezujete používání jednorázových obalů a plastů?",
+        "en": "Do you reduce the use of single-use packaging and plastics?",
+        "de": "Reduzieren Sie Einwegverpackungen und Kunststoffe?"
+      },
+      "description": {
+        "cs": "Snížení jednorázových obalů zlepšuje ekologickou stopu.",
+        "en": "Reducing single-use packaging improves environmental impact.",
+        "de": "Die Reduktion von Einwegverpackungen verbessert die Umweltbilanz."
+      }
+    },
+    {
+      "id": "recycling_partner",
+      "weight": 1,
+      "title": {
+        "cs": "Recyklační partner",
+        "en": "Recycling Partner",
+        "de": "Recycling-Partner"
+      },
+      "question": {
+        "cs": "Máte spolehlivého partnera pro recyklaci odpadu?",
+        "en": "Do you have a reliable partner for waste recycling?",
+        "de": "Gibt es einen verlässlichen Partner für das Recycling?"
+      },
+      "description": {
+        "cs": "Spolupráce s partnerem zajišťuje správné zpracování odpadu.",
+        "en": "A partner ensures proper waste processing and recovery.",
+        "de": "Ein Partner stellt die korrekte Verarbeitung und Verwertung sicher."
+      }
+    }
+  ]
+}
