@@ -31,6 +31,7 @@ export default function Electricity() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [pdfDownloaded, setPdfDownloaded] = useState(false);
   const [showPdfModal, setShowPdfModal] = useState(false);
+  const [showResults, setShowResults] = useState(false);
   const [consent, setConsent] = useState(false);
   const [energyValues, setEnergyValues] = useState<Record<string, number | ''>>({});
   const [energyByPeriod, setEnergyByPeriod] = useState<Record<string, number | ''>[]>([
@@ -123,6 +124,7 @@ export default function Electricity() {
         throw new Error(data.error || 'Request failed');
       }
       await res.json().catch(() => ({}));
+      setShowResults(true);
       setShowPdfModal(true);
     } catch (err) {
       window.alert(t('errors.submitFailed'));
@@ -197,6 +199,7 @@ export default function Electricity() {
                 periods={periods}
                 values={energyByPeriod}
                 onChange={setEnergyByPeriod}
+                showDerivedTables={showResults}
               />
             </div>
             {/*<div className="mb-12" data-pdf-hide>*/}
@@ -208,49 +211,53 @@ export default function Electricity() {
             {/*</div>*/}
           </div>
 
-          <ElectricitySummaryCard
-            totalEnergyKwh={totalEnergyKwh}
-            renewableShare={renewableShare}
-            perRoomNightKwh={perRoomNightKwh}
-          />
+          {showResults && (
+            <>
+              <ElectricitySummaryCard
+                totalEnergyKwh={totalEnergyKwh}
+                renewableShare={renewableShare}
+                perRoomNightKwh={perRoomNightKwh}
+              />
 
-          <div className="gp-card" data-pdf-card>
-            <EnergyConsumptionTable
-              years={yearsForConsumption}
-              denominators={denominatorsForConsumption}
-              values={valuesForConsumption}
-            />
-          </div>
-
-          <div className="gp-card" data-pdf-card>
-            <EnergyRenewablesSummary
-              years={yearsForConsumption}
-              values={energyByPeriod}
-            />
-          </div>
-
-          <div className="gp-card" data-pdf-card>
-            <BenchmarksThresholdsTable
-              years={yearsForConsumption}
-              valuesByYear={benchmarkValues}
-              ratingMatrixSource="electricity"
-            />
-          </div>
-
-          <div className="gp-card" data-pdf-card>
-            {periods.slice(0, 3).map((period, idx) => (
-              <div key={period.id} className={idx === 0 ? '' : 'mt-12'}>
-                <EnergyManagementTable
-                  totalEnergyKwh={perPeriodTotals[idx]?.totalEnergy || 0}
-                  totalEmissionsKg={perPeriodTotals[idx]?.totalEmissions || 0}
-                  floorAreaM2={perPeriodIndicators[idx]?.floorAreaM2 ?? null}
-                  roomNights={perPeriodIndicators[idx]?.roomNights ?? null}
-                  profileId={profile}
-                  periodTitle={t('energyManagement.periodTitle', { period: period.period || '-' })}
+              <div className="gp-card" data-pdf-card>
+                <EnergyConsumptionTable
+                  years={yearsForConsumption}
+                  denominators={denominatorsForConsumption}
+                  values={valuesForConsumption}
                 />
               </div>
-            ))}
-          </div>
+
+              <div className="gp-card" data-pdf-card>
+                <EnergyRenewablesSummary
+                  years={yearsForConsumption}
+                  values={energyByPeriod}
+                />
+              </div>
+
+              <div className="gp-card" data-pdf-card>
+                <BenchmarksThresholdsTable
+                  years={yearsForConsumption}
+                  valuesByYear={benchmarkValues}
+                  ratingMatrixSource="electricity"
+                />
+              </div>
+
+              <div className="gp-card" data-pdf-card>
+                {periods.slice(0, 3).map((period, idx) => (
+                  <div key={period.id} className={idx === 0 ? '' : 'mt-12'}>
+                    <EnergyManagementTable
+                      totalEnergyKwh={perPeriodTotals[idx]?.totalEnergy || 0}
+                      totalEmissionsKg={perPeriodTotals[idx]?.totalEmissions || 0}
+                      floorAreaM2={perPeriodIndicators[idx]?.floorAreaM2 ?? null}
+                      roomNights={perPeriodIndicators[idx]?.roomNights ?? null}
+                      profileId={profile}
+                      periodTitle={t('energyManagement.periodTitle', { period: period.period || '-' })}
+                    />
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
         </div>
 
         <div className="flex justify-center mb-12">

@@ -11,6 +11,7 @@ interface Props {
   periods: { period: string }[];
   values: EnergyByPeriod[];
   onChange: (values: EnergyByPeriod[]) => void;
+  showDerivedTables?: boolean;
 }
 
 const formatWithSpaces = (value: number) => {
@@ -29,7 +30,12 @@ const formatGj = (value: number) => {
     .replace(/\u00A0/g, ' ');
 };
 
-export default function EnergyByPeriodInput({ periods, values, onChange }: Props) {
+export default function EnergyByPeriodInput({
+  periods,
+  values,
+  onChange,
+  showDerivedTables = false,
+}: Props) {
   const { t } = useTranslation('electricity');
   const periodsSlice = periods.slice(0, 3);
 
@@ -77,23 +83,27 @@ export default function EnergyByPeriodInput({ periods, values, onChange }: Props
         />
       </div>
 
-      <div className="rounded-2xl border border-stone-200 bg-white p-4 md:p-6 shadow-sm">
-        <EnergyEmissionsTable
-          periods={periodsSlice}
-          values={values}
-          totals={periodTotalsEmissions}
-          formatEmissions={formatEmissions}
-        />
-      </div>
+      {showDerivedTables && (
+        <>
+          <div className="rounded-2xl border border-stone-200 bg-white p-4 md:p-6 shadow-sm">
+            <EnergyEmissionsTable
+              periods={periodsSlice}
+              values={values}
+              totals={periodTotalsEmissions}
+              formatEmissions={formatEmissions}
+            />
+          </div>
 
-      <div className="rounded-2xl border border-stone-200 bg-white p-4 md:p-6 shadow-sm">
-        <EnergyGjTable
-          periods={periodsSlice}
-          values={values}
-          totals={periodTotalsGj}
-          formatGj={formatGj}
-        />
-      </div>
+          <div className="rounded-2xl border border-stone-200 bg-white p-4 md:p-6 shadow-sm">
+            <EnergyGjTable
+              periods={periodsSlice}
+              values={values}
+              totals={periodTotalsGj}
+              formatGj={formatGj}
+            />
+          </div>
+        </>
+      )}
     </div>
   );
 }
