@@ -1,3 +1,7 @@
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
 export type SelfAuditArea = "electricity" | "water" | "waste";
 
 export const SELF_AUDIT_TABLES: Record<SelfAuditArea, string> = {
@@ -6,38 +10,45 @@ export const SELF_AUDIT_TABLES: Record<SelfAuditArea, string> = {
   waste: "waste_self_audits",
 };
 
+const projectRoot = path.resolve(
+  path.dirname(fileURLToPath(import.meta.url)),
+  "../../.."
+);
+
+const selfAuditDataFiles: Record<SelfAuditArea, string> = {
+  electricity: "selfAuditElectricity.json",
+  water: "selfAuditWater.json",
+  waste: "selfAuditWaste.json",
+};
+
+const assertSafeColumnName = (value: unknown, fileName: string) => {
+  if (typeof value !== "string" || !/^[A-Za-z_][A-Za-z0-9_]*$/.test(value)) {
+    throw new Error(`Invalid self-audit question id in ${fileName}: ${String(value)}`);
+  }
+  return value;
+};
+
+const loadQuestionKeys = (fileName: string) => {
+  const filePath = path.join(
+    projectRoot,
+    "src",
+    "data",
+    "selfAuditCardsQuestions",
+    fileName
+  );
+  const parsed = JSON.parse(fs.readFileSync(filePath, "utf8")) as {
+    cards?: Array<{ id?: unknown }>;
+  };
+
+  if (!Array.isArray(parsed.cards)) {
+    throw new Error(`Missing cards array in ${fileName}`);
+  }
+
+  return parsed.cards.map((card) => assertSafeColumnName(card.id, fileName));
+};
+
 export const SELF_AUDIT_QUESTION_KEYS: Record<SelfAuditArea, readonly string[]> = {
-  electricity: [
-    "controls",
-    "energy_audit",
-    "led_lighting_replacement",
-    "energy_saving_appliances",
-    "hvac_maintenance",
-    "use_renewable_energy_sources",
-    "purchase_green_electricity",
-    "building_energy_insulation",
-    "employee_training_energy_behavior",
-    "laundry_towels_on_request",
-    "laundry_bed_linen_frequency",
-    "lighting_motion_sensors_common_areas",
-    "lighting_room_keycard_activators",
-    "heating_standard_temperature_with_override",
-    "ac_only_with_closed_windows",
-    "guest_behavior_signs_turn_off",
-    "guest_behavior_qr_flyer_info",
-    "management_energy_monitoring_frequency",
-    "management_record_temp_requests_for_prediction",
-  ],
-  water: [
-    "water_leak_detection",
-    "low_flow_fixtures",
-    "linen_towel_reuse",
-    "water_consumption_tracking",
-  ],
-  waste: [
-    "waste_sorting_system",
-    "food_waste_reduction",
-    "single_use_reduction",
-    "recycling_partner",
-  ],
-} as const;
+  electricity: loadQuestionKeys(selfAuditDataFiles.electricity),
+  water: loadQuestionKeys(selfAuditDataFiles.water),
+  waste: loadQuestionKeys(selfAuditDataFiles.waste),
+};

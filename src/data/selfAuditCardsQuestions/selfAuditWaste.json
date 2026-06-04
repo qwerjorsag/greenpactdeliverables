@@ -1,7 +1,7 @@
 {
   "cards": [
     {
-      "id": "waste_sorting_system",
+      "id": "waste_sorting",
       "weight": 1,
       "title": {
         "cs": "Třídění odpadu",
@@ -11,12 +11,12 @@
       "question": {
         "cs": "Máte na provozu zavedený systém třídění odpadu?",
         "en": "Do you have a waste sorting system in place?",
-        "de": "Gibt es ein Abfalltrennsystem im Betrieb?"
+        "de": "Haben Sie ein System zur Abfalltrennung eingeführt?"
       },
       "description": {
-        "cs": "Správné třídění snižuje množství směsného odpadu a náklady.",
-        "en": "Proper sorting reduces mixed waste volume and costs.",
-        "de": "Korrekte Trennung reduziert Restmüll und Kosten."
+        "cs": "Správné třídění snižuje množství směsného odpadu a náklady na jeho likvidaci.",
+        "en": "Proper waste sorting reduces mixed waste volumes and disposal costs.",
+        "de": "Eine korrekte Abfalltrennung reduziert Restmüllmengen und Entsorgungskosten."
       }
     },
     {
@@ -30,50 +30,259 @@
       "question": {
         "cs": "Sledujete a aktivně snižujete potravinový odpad?",
         "en": "Do you monitor and actively reduce food waste?",
-        "de": "Überwachen und reduzieren Sie Lebensmittelabfälle aktiv?"
+        "de": "Überwachen und reduzieren Sie aktiv Lebensmittelabfälle?"
       },
       "description": {
         "cs": "Monitoring pomáhá optimalizovat nákupy a snížit ztráty.",
-        "en": "Tracking helps optimize purchasing and reduce losses.",
-        "de": "Monitoring hilft, den Einkauf zu optimieren und Verluste zu senken."
+        "en": "Monitoring helps optimize purchasing and reduce losses.",
+        "de": "Monitoring hilft, Einkäufe zu optimieren und Verluste zu reduzieren."
       }
     },
     {
-      "id": "single_use_reduction",
+      "id": "single_use_plastic_reduction",
       "weight": 1,
       "title": {
         "cs": "Omezení jednorázových plastů",
-        "en": "Single-use Reduction",
-        "de": "Reduktion von Einwegkunststoffen"
+        "en": "Single-use Plastic Reduction",
+        "de": "Reduzierung von Einwegplastik"
       },
       "question": {
-        "cs": "Omezujete používání jednorázových obalů a plastů?",
-        "en": "Do you reduce the use of single-use packaging and plastics?",
-        "de": "Reduzieren Sie Einwegverpackungen und Kunststoffe?"
+        "cs": "Omezujete používání jednorázových plastových výrobků?",
+        "en": "Do you limit the use of single-use plastic products?",
+        "de": "Begrenzen Sie die Verwendung von Einwegplastikprodukten?"
       },
       "description": {
-        "cs": "Snížení jednorázových obalů zlepšuje ekologickou stopu.",
-        "en": "Reducing single-use packaging improves environmental impact.",
-        "de": "Die Reduktion von Einwegverpackungen verbessert die Umweltbilanz."
+        "cs": "Nahrazení plastů opakovaně použitelnými alternativami snižuje environmentální dopady.",
+        "en": "Replacing plastics with reusable alternatives reduces environmental impact.",
+        "de": "Der Ersatz von Plastik durch wiederverwendbare Alternativen reduziert Umweltbelastungen."
       }
     },
     {
-      "id": "recycling_partner",
+      "id": "waste_recycling",
       "weight": 1,
       "title": {
-        "cs": "Recyklační partner",
-        "en": "Recycling Partner",
-        "de": "Recycling-Partner"
+        "cs": "Recyklace odpadu",
+        "en": "Waste Recycling",
+        "de": "Abfallrecycling"
       },
       "question": {
-        "cs": "Máte spolehlivého partnera pro recyklaci odpadu?",
-        "en": "Do you have a reliable partner for waste recycling?",
-        "de": "Gibt es einen verlässlichen Partner für das Recycling?"
+        "cs": "Je většina recyklovatelného odpadu předávána k recyklaci?",
+        "en": "Is most recyclable waste sent for recycling?",
+        "de": "Wird der Großteil der recycelbaren Abfälle dem Recycling zugeführt?"
       },
       "description": {
-        "cs": "Spolupráce s partnerem zajišťuje správné zpracování odpadu.",
-        "en": "A partner ensures proper waste processing and recovery.",
-        "de": "Ein Partner stellt die korrekte Verarbeitung und Verwertung sicher."
+        "cs": "Recyklace šetří přírodní zdroje a snižuje množství odpadu na skládkách.",
+        "en": "Recycling conserves natural resources and reduces landfill waste.",
+        "de": "Recycling schont natürliche Ressourcen und reduziert Deponieabfälle."
+      }
+    },
+    {
+      "id": "organic_waste_composting",
+      "weight": 1,
+      "title": {
+        "cs": "Kompostování bioodpadu",
+        "en": "Organic Waste Composting",
+        "de": "Kompostierung von Bioabfällen"
+      },
+      "question": {
+        "cs": "Kompostujete biologicky rozložitelný odpad nebo jej předáváte ke zpracování?",
+        "en": "Do you compost biodegradable waste or send it for processing?",
+        "de": "Kompostieren Sie biologisch abbaubare Abfälle oder lassen Sie diese verwerten?"
+      },
+      "description": {
+        "cs": "Bioodpad lze efektivně využít místo jeho ukládání na skládku.",
+        "en": "Organic waste can be effectively utilized instead of landfilled.",
+        "de": "Bioabfälle können sinnvoll genutzt werden, anstatt auf Deponien zu landen."
+      }
+    },
+    {
+      "id": "hazardous_waste_management",
+      "weight": 1,
+      "title": {
+        "cs": "Nakládání s nebezpečným odpadem",
+        "en": "Hazardous Waste Management",
+        "de": "Umgang mit gefährlichen Abfällen"
+      },
+      "question": {
+        "cs": "Máte zaveden systém bezpečného nakládání s nebezpečným odpadem?",
+        "en": "Do you have a system for safe hazardous waste management?",
+        "de": "Verfügen Sie über ein System zur sicheren Entsorgung gefährlicher Abfälle?"
+      },
+      "description": {
+        "cs": "Správná likvidace chrání životní prostředí i zdraví osob.",
+        "en": "Proper disposal protects both the environment and human health.",
+        "de": "Eine fachgerechte Entsorgung schützt Umwelt und Gesundheit."
+      }
+    },
+    {
+      "id": "waste_monitoring",
+      "weight": 1,
+      "title": {
+        "cs": "Monitoring produkce odpadu",
+        "en": "Waste Monitoring",
+        "de": "Abfallmonitoring"
+      },
+      "question": {
+        "cs": "Sledujete pravidelně množství vznikajícího odpadu?",
+        "en": "Do you regularly monitor the amount of waste generated?",
+        "de": "Überwachen Sie regelmäßig die Menge des erzeugten Abfalls?"
+      },
+      "description": {
+        "cs": "Měření je základem pro identifikaci příležitostí ke zlepšení.",
+        "en": "Measurement is the foundation for identifying improvement opportunities.",
+        "de": "Messungen bilden die Grundlage zur Identifizierung von Verbesserungspotenzialen."
+      }
+    },
+    {
+      "id": "paperless_operations",
+      "weight": 1,
+      "title": {
+        "cs": "Digitální dokumentace",
+        "en": "Paperless Operations",
+        "de": "Digitale Dokumentation"
+      },
+      "question": {
+        "cs": "Nahrazujete papírové dokumenty digitálními alternativami?",
+        "en": "Do you replace paper documents with digital alternatives?",
+        "de": "Ersetzen Sie Papierdokumente durch digitale Alternativen?"
+      },
+      "description": {
+        "cs": "Digitalizace snižuje spotřebu papíru a produkci odpadu.",
+        "en": "Digitalization reduces paper consumption and waste generation.",
+        "de": "Die Digitalisierung reduziert Papierverbrauch und Abfallaufkommen."
+      }
+    },
+    {
+      "id": "reusable_packaging",
+      "weight": 1,
+      "title": {
+        "cs": "Opakovaně použitelné obaly",
+        "en": "Reusable Packaging",
+        "de": "Wiederverwendbare Verpackungen"
+      },
+      "question": {
+        "cs": "Používáte opakovaně použitelné nebo vratné obaly?",
+        "en": "Do you use reusable or returnable packaging?",
+        "de": "Nutzen Sie wiederverwendbare oder rückgabefähige Verpackungen?"
+      },
+      "description": {
+        "cs": "Snižuje se množství obalového odpadu vznikajícího během provozu.",
+        "en": "This reduces packaging waste generated during operations.",
+        "de": "Dadurch wird das Verpackungsabfallaufkommen im Betrieb reduziert."
+      }
+    },
+    {
+      "id": "guest_waste_awareness",
+      "weight": 1,
+      "title": {
+        "cs": "Informování hostů",
+        "en": "Guest Waste Awareness",
+        "de": "Information der Gäste"
+      },
+      "question": {
+        "cs": "Informujete hosty o možnostech třídění odpadu během pobytu?",
+        "en": "Do you inform guests about waste sorting options during their stay?",
+        "de": "Informieren Sie Gäste über Möglichkeiten der Abfalltrennung während ihres Aufenthalts?"
+      },
+      "description": {
+        "cs": "Zapojení hostů zvyšuje efektivitu systému třídění.",
+        "en": "Guest participation improves the effectiveness of waste sorting systems.",
+        "de": "Die Einbindung der Gäste erhöht die Effektivität der Abfalltrennung."
+      }
+    },
+    {
+      "id": "employee_waste_training",
+      "weight": 1,
+      "title": {
+        "cs": "Školení zaměstnanců",
+        "en": "Employee Waste Training",
+        "de": "Mitarbeiterschulungen"
+      },
+      "question": {
+        "cs": "Jsou zaměstnanci pravidelně školeni v oblasti odpadového hospodářství?",
+        "en": "Are employees regularly trained in waste management practices?",
+        "de": "Werden Mitarbeiter regelmäßig im Bereich Abfallmanagement geschult?"
+      },
+      "description": {
+        "cs": "Vyšší informovanost vede ke správnějšímu nakládání s odpady.",
+        "en": "Greater awareness leads to better waste handling practices.",
+        "de": "Ein höheres Bewusstsein führt zu einem besseren Umgang mit Abfällen."
+      }
+    },
+    {
+      "id": "food_donation_program",
+      "weight": 1,
+      "title": {
+        "cs": "Darování přebytků potravin",
+        "en": "Food Donation Program",
+        "de": "Lebensmittelspendenprogramm"
+      },
+      "question": {
+        "cs": "Využíváte možnosti darování přebytků potravin nebo jejich dalšího využití?",
+        "en": "Do you donate surplus food or ensure its further use?",
+        "de": "Spenden Sie überschüssige Lebensmittel oder sorgen für deren Weiterverwendung?"
+      },
+      "description": {
+        "cs": "Předcházíte tak zbytečnému vzniku odpadu a podporujete sociální odpovědnost.",
+        "en": "This prevents unnecessary waste and supports social responsibility.",
+        "de": "Dadurch werden Abfälle vermieden und soziale Verantwortung gefördert."
+      }
+    },
+    {
+      "id": "sustainable_packaging_procurement",
+      "weight": 1,
+      "title": {
+        "cs": "Nákup s minimem obalů",
+        "en": "Sustainable Packaging Procurement",
+        "de": "Nachhaltige Verpackungsbeschaffung"
+      },
+      "question": {
+        "cs": "Preferujete dodavatele využívající minimalizované nebo ekologické obaly?",
+        "en": "Do you prefer suppliers using minimal or environmentally friendly packaging?",
+        "de": "Bevorzugen Sie Lieferanten mit minimalen oder umweltfreundlichen Verpackungen?"
+      },
+      "description": {
+        "cs": "Odpovědné nákupy pomáhají předcházet vzniku odpadu již na vstupu.",
+        "en": "Responsible procurement helps prevent waste at the source.",
+        "de": "Verantwortungsvolle Beschaffung hilft, Abfälle bereits an der Quelle zu vermeiden."
+      }
+    },
+    {
+      "id": "recycling_rate_tracking",
+      "weight": 1,
+      "title": {
+        "cs": "Míra recyklace",
+        "en": "Recycling Rate Tracking",
+        "de": "Überwachung der Recyclingquote"
+      },
+      "question": {
+        "cs": "Vyhodnocujete podíl recyklovaného odpadu na celkové produkci odpadu?",
+        "en": "Do you evaluate the share of recycled waste in total waste generation?",
+        "de": "Bewerten Sie den Anteil recycelter Abfälle am gesamten Abfallaufkommen?"
+      },
+      "description": {
+        "cs": "Tento ukazatel umožňuje sledovat dlouhodobou efektivitu odpadového hospodářství.",
+        "en": "This indicator helps track long-term waste management performance.",
+        "de": "Dieser Indikator hilft, die langfristige Leistung des Abfallmanagements zu verfolgen."
+      }
+    },
+    {
+      "id": "waste_audits_certification",
+      "weight": 1,
+      "title": {
+        "cs": "Audity a certifikace",
+        "en": "Waste Audits & Certification",
+        "de": "Audits und Zertifizierungen"
+      },
+      "question": {
+        "cs": "Provádíte pravidelné audity odpadového hospodářství nebo využíváte environmentální certifikace?",
+        "en": "Do you conduct regular waste audits or use environmental certifications?",
+        "de": "Führen Sie regelmäßige Abfallaudits durch oder nutzen Umweltzertifizierungen?"
+      },
+      "description": {
+        "cs": "Audity pomáhají identifikovat nové příležitosti ke zlepšení.",
+        "en": "Audits help identify new opportunities for improvement.",
+        "de": "Audits helfen, neue Verbesserungspotenziale zu identifizieren."
       }
     }
   ]

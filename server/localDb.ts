@@ -23,6 +23,9 @@ localDb.pragma("foreign_keys = ON");
 
 type ColumnInfo = { name: string };
 
+const quoteIdentifier = (identifier: string) =>
+  `"${identifier.replace(/"/g, '""')}"`;
+
 const tableExists = (table: string) => {
   const row = localDb
     .prepare("SELECT name FROM sqlite_master WHERE type = 'table' AND name = ?")
@@ -31,9 +34,9 @@ const tableExists = (table: string) => {
 };
 
 const tableColumns = (table: string) =>
-  (localDb.prepare(`PRAGMA table_info(${table})`).all() as ColumnInfo[]).map(
-    (column) => column.name
-  );
+  (
+    localDb.prepare(`PRAGMA table_info(${quoteIdentifier(table)})`).all() as ColumnInfo[]
+  ).map((column) => column.name);
 
 const hasColumn = (table: string, column: string) =>
   tableExists(table) && tableColumns(table).includes(column);
@@ -54,14 +57,14 @@ const toIso = (value: unknown) => {
 };
 
 const buildSelfAuditTableSql = (tableName: string, questionKeys: readonly string[]) => `
-  CREATE TABLE IF NOT EXISTS ${tableName} (
+  CREATE TABLE IF NOT EXISTS ${quoteIdentifier(tableName)} (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     profile TEXT NOT NULL,
     language TEXT NOT NULL,
     total_score REAL NOT NULL DEFAULT 0,
     created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    ${questionKeys.map((key) => `${key} REAL NOT NULL DEFAULT 0`).join(",\n    ")}
+    ${questionKeys.map((key) => `${quoteIdentifier(key)} REAL NOT NULL DEFAULT 0`).join(",\n    ")}
   );
 `;
 
@@ -75,7 +78,11 @@ const buildSelfAuditInsertSql = (tableName: string, questionKeys: readonly strin
     ...questionKeys,
   ];
   const params = columns.map((column) => `@${column}`).join(", ");
-  return localDb.prepare(`INSERT OR IGNORE INTO ${tableName} (${columns.join(", ")}) VALUES (${params})`);
+  return localDb.prepare(
+    `INSERT OR IGNORE INTO ${quoteIdentifier(tableName)} (${columns
+      .map(quoteIdentifier)
+      .join(", ")}) VALUES (${params})`
+  );
 };
 
 const normalizeSelfAuditAnswers = (
@@ -507,6 +514,23 @@ function migrateUnifiedSelfAuditsIfNeeded() {
   `);
 }
 
+function ensureSelfAuditQuestionColumns() {
+  for (const area of Object.keys(SELF_AUDIT_TABLES) as SelfAuditArea[]) {
+    const table = SELF_AUDIT_TABLES[area];
+    if (!tableExists(table)) continue;
+
+    const existingColumns = new Set(tableColumns(table));
+    for (const questionKey of SELF_AUDIT_QUESTION_KEYS[area]) {
+      if (existingColumns.has(questionKey)) continue;
+      localDb.exec(
+        `ALTER TABLE ${quoteIdentifier(table)} ADD COLUMN ${quoteIdentifier(
+          questionKey
+        )} REAL NOT NULL DEFAULT 0`
+      );
+    }
+  }
+}
+
 localDb.exec(`
   CREATE TABLE IF NOT EXISTS admin_users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -626,6 +650,7 @@ localDb.transaction(() => {
   migrateLegacyAreaSelfAuditsIfNeeded();
   migrateRemoveLegacyAuditIdIfNeeded();
   migrateUnifiedSelfAuditsIfNeeded();
+  ensureSelfAuditQuestionColumns();
 })();
 
 export function getDbPath() {

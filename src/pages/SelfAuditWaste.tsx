@@ -3,9 +3,19 @@ import { useTranslation } from 'react-i18next';
 import {
   Trash2,
   Recycle,
-  Leaf,
-  ClipboardCheck,
   LineChart,
+  BarChart3,
+  BadgeCheck,
+  ChefHat,
+  FileDigit,
+  Gift,
+  GraduationCap,
+  MessageSquare,
+  Package,
+  Repeat2,
+  ShieldAlert,
+  Sprout,
+  Truck,
 } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import SelfAuditCard from '../components/SelfAuditCard';
@@ -38,10 +48,21 @@ type LocalizedText = {
 };
 
 const ICONS: Record<string, React.ReactNode> = {
-  waste_sorting_system: <Recycle className="w-10 h-10" />,
-  food_waste_reduction: <LineChart className="w-10 h-10" />,
-  single_use_reduction: <ClipboardCheck className="w-10 h-10" />,
-  recycling_partner: <Leaf className="w-10 h-10" />,
+  waste_sorting: <Recycle className="w-10 h-10" />,
+  food_waste_reduction: <ChefHat className="w-10 h-10" />,
+  single_use_plastic_reduction: <Package className="w-10 h-10" />,
+  waste_recycling: <Recycle className="w-10 h-10" />,
+  organic_waste_composting: <Sprout className="w-10 h-10" />,
+  hazardous_waste_management: <ShieldAlert className="w-10 h-10" />,
+  waste_monitoring: <LineChart className="w-10 h-10" />,
+  paperless_operations: <FileDigit className="w-10 h-10" />,
+  reusable_packaging: <Repeat2 className="w-10 h-10" />,
+  guest_waste_awareness: <MessageSquare className="w-10 h-10" />,
+  employee_waste_training: <GraduationCap className="w-10 h-10" />,
+  food_donation_program: <Gift className="w-10 h-10" />,
+  sustainable_packaging_procurement: <Truck className="w-10 h-10" />,
+  recycling_rate_tracking: <BarChart3 className="w-10 h-10" />,
+  waste_audits_certification: <BadgeCheck className="w-10 h-10" />,
 };
 
 const CARDS: AuditCard[] = selfAuditData.cards.map((card) => ({

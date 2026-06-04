@@ -5,6 +5,18 @@ import {
   ClipboardCheck,
   Recycle,
   LineChart,
+  BadgeCheck,
+  BarChart3,
+  ClipboardList,
+  CloudRain,
+  Gauge,
+  GraduationCap,
+  MessageSquare,
+  ScanLine,
+  ShowerHead,
+  Sprout,
+  WashingMachine,
+  Waves,
 } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import SelfAuditCard from '../components/SelfAuditCard';
@@ -38,9 +50,20 @@ type LocalizedText = {
 
 const ICONS: Record<string, React.ReactNode> = {
   water_leak_detection: <ClipboardCheck className="w-10 h-10" />,
-  low_flow_fixtures: <Droplets className="w-10 h-10" />,
+  low_flow_fixtures: <ShowerHead className="w-10 h-10" />,
   linen_towel_reuse: <Recycle className="w-10 h-10" />,
   water_consumption_tracking: <LineChart className="w-10 h-10" />,
+  rainwater_harvesting: <CloudRain className="w-10 h-10" />,
+  greywater_reuse: <Waves className="w-10 h-10" />,
+  efficient_irrigation: <Sprout className="w-10 h-10" />,
+  water_efficient_laundry: <WashingMachine className="w-10 h-10" />,
+  water_saving_staff_training: <GraduationCap className="w-10 h-10" />,
+  guest_water_awareness: <MessageSquare className="w-10 h-10" />,
+  smart_water_meters: <Gauge className="w-10 h-10" />,
+  touchless_faucets: <ScanLine className="w-10 h-10" />,
+  water_per_guest_night: <BarChart3 className="w-10 h-10" />,
+  water_management_certification: <BadgeCheck className="w-10 h-10" />,
+  water_management_audits: <ClipboardList className="w-10 h-10" />,
 };
 
 const CARDS: AuditCard[] = selfAuditData.cards.map((card) => ({

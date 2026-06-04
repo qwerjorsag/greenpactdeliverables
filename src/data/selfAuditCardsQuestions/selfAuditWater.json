@@ -75,6 +75,196 @@
         "en": "Ongoing tracking helps quickly react to usage spikes.",
         "de": "Laufendes Monitoring hilft, auf Verbrauchsspitzen schnell zu reagieren."
       }
+    },
+    {
+      "id": "rainwater_harvesting",
+      "weight": 1,
+      "title": {
+        "cs": "Využití dešťové vody",
+        "en": "Rainwater Harvesting",
+        "de": "Regenwassernutzung"
+      },
+      "question": {
+        "cs": "Využíváte dešťovou vodu pro technické nebo provozní účely?",
+        "en": "Do you collect and use rainwater for operational purposes?",
+        "de": "Nutzen Sie Regenwasser für betriebliche Zwecke?"
+      },
+      "description": {
+        "cs": "Sběr dešťové vody snižuje odběr pitné vody z veřejné sítě.",
+        "en": "Rainwater harvesting reduces the use of potable water.",
+        "de": "Die Nutzung von Regenwasser reduziert den Verbrauch von Trinkwasser."
+      }
+    },
+    {
+      "id": "greywater_reuse",
+      "weight": 1,
+      "title": {
+        "cs": "Recyklace šedé vody",
+        "en": "Greywater Reuse",
+        "de": "Grauwassernutzung"
+      },
+      "question": {
+        "cs": "Využíváte recyklaci šedé vody ze sprch nebo umyvadel?",
+        "en": "Do you reuse greywater from showers or sinks?",
+        "de": "Nutzen Sie Grauwasser aus Duschen oder Waschbecken wieder?"
+      },
+      "description": {
+        "cs": "Opětovné využití vody přispívá k významným úsporám vodních zdrojů.",
+        "en": "Greywater reuse contributes to significant water savings.",
+        "de": "Die Wiederverwendung von Grauwasser trägt zu erheblichen Wassereinsparungen bei."
+      }
+    },
+    {
+      "id": "efficient_irrigation",
+      "weight": 1,
+      "title": {
+        "cs": "Efektivní zavlažování",
+        "en": "Efficient Irrigation",
+        "de": "Effiziente Bewässerung"
+      },
+      "question": {
+        "cs": "Používáte efektivní systémy zavlažování venkovních ploch?",
+        "en": "Do you use efficient irrigation systems for outdoor areas?",
+        "de": "Nutzen Sie effiziente Bewässerungssysteme für Außenflächen?"
+      },
+      "description": {
+        "cs": "Kapková závlaha a automatické řízení minimalizují plýtvání vodou.",
+        "en": "Drip irrigation and automation help minimize water waste.",
+        "de": "Tröpfchenbewässerung und Automatisierung minimieren Wasserverschwendung."
+      }
+    },
+    {
+      "id": "water_efficient_laundry",
+      "weight": 1,
+      "title": {
+        "cs": "Úsporné technologie v prádelně",
+        "en": "Water-efficient Laundry Equipment",
+        "de": "Wassersparende Wäschereitechnik"
+      },
+      "question": {
+        "cs": "Využíváte moderní prádelenské technologie s nízkou spotřebou vody?",
+        "en": "Do you use water-efficient laundry equipment?",
+        "de": "Nutzen Sie wassersparende Wäschereitechnik?"
+      },
+      "description": {
+        "cs": "Efektivní praní pomáhá snižovat spotřebu vody i provozní náklady.",
+        "en": "Efficient laundry systems reduce water consumption and operating costs.",
+        "de": "Effiziente Wäschereisysteme reduzieren Wasserverbrauch und Betriebskosten."
+      }
+    },
+    {
+      "id": "water_saving_staff_training",
+      "weight": 1,
+      "title": {
+        "cs": "Školení zaměstnanců",
+        "en": "Staff Water-saving Training",
+        "de": "Mitarbeiterschulungen zum Wassersparen"
+      },
+      "question": {
+        "cs": "Jsou zaměstnanci pravidelně školeni v oblasti úspor vody?",
+        "en": "Are employees regularly trained in water-saving practices?",
+        "de": "Werden Mitarbeiter regelmäßig zum Wassersparen geschult?"
+      },
+      "description": {
+        "cs": "Informovaný personál dokáže předcházet zbytečné spotřebě vody.",
+        "en": "Well-trained staff can prevent unnecessary water consumption.",
+        "de": "Gut geschulte Mitarbeiter können unnötigen Wasserverbrauch vermeiden."
+      }
+    },
+    {
+      "id": "guest_water_awareness",
+      "weight": 1,
+      "title": {
+        "cs": "Informování hostů",
+        "en": "Guest Water Awareness",
+        "de": "Information der Gäste"
+      },
+      "question": {
+        "cs": "Informujete hosty o možnostech šetrného využívání vody během pobytu?",
+        "en": "Do you inform guests about water-saving opportunities during their stay?",
+        "de": "Informieren Sie Gäste über Möglichkeiten zum Wassersparen während ihres Aufenthalts?"
+      },
+      "description": {
+        "cs": "Zapojení hostů pomáhá dosahovat vyšší úrovně udržitelnosti.",
+        "en": "Guest engagement supports greater sustainability performance.",
+        "de": "Die Einbindung der Gäste unterstützt eine höhere Nachhaltigkeit."
+      }
+    },
+    {
+      "id": "smart_water_meters",
+      "weight": 1,
+      "title": {
+        "cs": "Inteligentní vodoměry",
+        "en": "Smart Water Meters",
+        "de": "Intelligente Wasserzähler"
+      },
+      "question": {
+        "cs": "Využíváte inteligentní vodoměry nebo automatizované sledování spotřeby?",
+        "en": "Do you use smart water meters or automated consumption monitoring?",
+        "de": "Nutzen Sie intelligente Wasserzähler oder automatisiertes Monitoring?"
+      },
+      "description": {
+        "cs": "Chytré měření umožňuje rychle identifikovat neobvyklou spotřebu.",
+        "en": "Smart monitoring helps identify unusual consumption patterns quickly.",
+        "de": "Intelligente Überwachung hilft, ungewöhnliche Verbrauchsmuster schnell zu erkennen."
+      }
+    },
+    {
+      "id": "touchless_faucets",
+      "weight": 1,
+      "title": {
+        "cs": "Bezdotykové baterie",
+        "en": "Touchless Faucets",
+        "de": "Berührungslose Armaturen"
+      },
+      "question": {
+        "cs": "Jsou ve společných prostorách instalovány bezdotykové baterie?",
+        "en": "Are touchless faucets installed in common areas?",
+        "de": "Sind in Gemeinschaftsbereichen berührungslose Armaturen installiert?"
+      },
+      "description": {
+        "cs": "Automatické armatury pomáhají eliminovat zbytečné plýtvání vodou.",
+        "en": "Automatic faucets help eliminate unnecessary water waste.",
+        "de": "Automatische Armaturen helfen, unnötige Wasserverschwendung zu vermeiden."
+      }
+    },
+    {
+      "id": "water_management_certification",
+      "weight": 1,
+      "title": {
+        "cs": "Certifikace vodního hospodářství",
+        "en": "Water Management Certification",
+        "de": "Zertifizierung des Wassermanagements"
+      },
+      "question": {
+        "cs": "Je vaše zařízení držitelem certifikace zaměřené na hospodaření s vodou?",
+        "en": "Does your facility hold a certification related to water management?",
+        "de": "Verfügt Ihre Einrichtung über eine Zertifizierung im Bereich Wassermanagement?"
+      },
+      "description": {
+        "cs": "Certifikace potvrzují systematický přístup k efektivnímu využívání vody.",
+        "en": "Certifications demonstrate a systematic approach to water efficiency.",
+        "de": "Zertifizierungen bestätigen einen systematischen Ansatz zur Wassereffizienz."
+      }
+    },
+    {
+      "id": "water_management_audits",
+      "weight": 1,
+      "title": {
+        "cs": "Audity vodního managementu",
+        "en": "Water Management Audits",
+        "de": "Audits des Wassermanagements"
+      },
+      "question": {
+        "cs": "Provádíte pravidelné audity zaměřené na spotřebu a efektivitu využívání vody?",
+        "en": "Do you conduct regular audits of water consumption and efficiency?",
+        "de": "Führen Sie regelmäßige Audits zum Wasserverbrauch und zur Wassereffizienz durch?"
+      },
+      "description": {
+        "cs": "Audity pomáhají identifikovat nové příležitosti ke zlepšení.",
+        "en": "Audits help identify new opportunities for improvement.",
+        "de": "Audits helfen, neue Verbesserungspotenziale zu identifizieren."
+      }
     }
   ]
 }
